@@ -1,0 +1,18 @@
+﻿domain,domain_name,easy,medium,hard
+a,Raw Data QC ,0,1,4
+b,Read Trimming ,0,0,3
+c,Read Alignment,0,0,21
+d,Post Alignment QC,0,1,6
+e,Gene/Transcriptome Annotation,0,0,6
+f,Transcriptome assembly ,0,1,12
+g,Transcriptome Quantification,0,6,19
+h,Differential Expression ,0,10,2
+i,RNA Splicing and Differential Isoform Usage,0,7,6
+j,Cell Deconvolution ,0,6,5
+k,Adaptive immune repertoire profiling,0,0,3
+l,"Variant (e.g., SNP) and mutation detection",0,1,4
+m,RNA Editing ,0,0,2
+n,Allele Specific Expression ,0,1,5
+o,Viral Detection ,0,0,1
+p,Fusion Detection ,0,1,7
+q,Visualization Tools ,0,2,7
