@@ -1,0 +1,18 @@
+﻿domain,domain_name,Anaconda,Bioconductor,CRAN,none
+a,Data Quality Control and Read Trimming,10,1,0,5
+b,Read Alignment,12,0,0,10
+c,Gene/Transcriptome Annotation ,2,0,0,5
+d,Transcriptome assembly ,1,0,0,12
+e,Transcriptome Quantification,12,4,0,20
+f,Differential Expression,8,8,2,4
+g,RNA Splicing and Differential Isoform Usage,7,4,0,13
+h,Cell Deconvolution,3,0,1,13
+i,Adaptive immune repertoire profiling,2,0,0,3
+j,"Variant (e.g., SNP) and mutation detection",0,0,0,9
+k,RNA Editing,0,0,0,2
+l,Allele Specific Expression,2,0,0,8
+m,Viral Detection,2,0,0,2
+n,Fusion Detection,6,1,0,10
+o,Visualization Tools,3,2,0,11
+,,,,,
+,,,,,
