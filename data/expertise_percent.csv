@@ -1,13 +1,13 @@
-﻿domain,domain_name,easy,medium,hard,total
-a,Data Quality Control and Read Trimming,0,0.486486486,0.513513514,1
-b,Read Alignment,0,0.545454545,0.454545455,1
-c,Transcriptome assembly,0,0.380952381,0.619047619,1
-d,Transcriptome Quantification and Annotation,0,0.473684211,0.526315789,1
-e,Differential Expression ,0.0625,0.375,0.5625,1
-f,RNA Splicing and Differential Isoform Usage,0.066666667,0.666666667,0.266666667,1
-g,Adaptive Immune Repertoire Profiling and Cell Deconvolution,0,0.785714286,0.214285714,1
-h,Allele Specific Expression ,0,0.153846154,0.846153846,1
-i,Viral Detection ,0,0.230769231,0.769230769,1
-j,Fusion Detection ,0,0.4,0.6,1
-k,Visualization Tools ,0,0.5,0.5,1
-,,,,,
+﻿domain,domain_name,easy,medium,hard,total,all
+d,Transcriptome Quantification and Annotation,0,0.486486486,0.513513514,1,37
+b,Read Alignment,0,0.545454545,0.454545455,1,22
+g,Adaptive Immune Repertoire Profiling and Cell Deconvolution,0,0.380952381,0.619047619,1,21
+f,RNA Splicing and Differential Isoform Usage,0,0.473684211,0.526315789,1,19
+j,Fusion Detection ,0.0625,0.375,0.5625,1,16
+a,Data Quality Control and Read Trimming,0.066666667,0.666666667,0.266666667,1,15
+e,Differential Expression ,0,0.785714286,0.214285714,1,14
+c,Transcriptome assembly,0,0.153846154,0.846153846,1,13
+k,Visualization Tools ,0,0.230769231,0.769230769,1,13
+h,Allele Specific Expression ,0,0.4,0.6,1,10
+i,Viral Detection ,0,0.5,0.5,1,4
+,,,,,,

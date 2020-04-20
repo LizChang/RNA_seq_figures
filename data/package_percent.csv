@@ -1,14 +1,14 @@
 ﻿domain,domain_name,Anaconda,Bioconductor,CRAN,none,total
-a,Data Quality Control and Read Trimming,0.325581395,0.093023256,0,0.581395349,1
-b,Read Alignment,0.291666667,0.166666667,0,0.541666667,1
-c,Transcriptome assembly ,0.545454545,0,0,0.454545455,1
-d,Transcriptome Quantification and Annotation,0.363636364,0.363636364,0.090909091,0.181818182,1
-e,Differential Expression,0.227272727,0,0.045454545,0.727272727,1
-f,RNA Splicing and Differential Isoform Usage,0.352941176,0.058823529,0,0.588235294,1
-g,Adaptive Immune Repertoire Profiling and Cell Deconvolution,0.625,0.0625,0,0.3125,1
-h,Allele Specific Expression,0.1875,0.125,0,0.6875,1
-i,Viral Detection,0.076923077,0,0,0.923076923,1
-j,Fusion Detection,0.2,0,0,0.8,1
-k,Visualization Tools,0.5,0,0,0.5,1
+d,Transcriptome Quantification and Annotation,0.325581395,0.093023256,0,0.581395349,1
+b,Read Alignment,0.545454545,0,0,0.454545455,1
+g,Adaptive Immune Repertoire Profiling and Cell Deconvolution,0.227272727,0,0.045454545,0.727272727,1
+f,RNA Splicing and Differential Isoform Usage,0.291666667,0.166666667,0,0.541666667,1
+j,Fusion Detection,0.352941176,0.058823529,0,0.588235294,1
+a,Data Quality Control and Read Trimming,0.352941176,0.058823529,0,0.588235294,1
+e,Differential Expression,0.363636364,0.363636364,0.090909091,0.181818182,1
+c,Transcriptome assembly ,0.076923077,0,0,0.923076923,1
+k,Visualization Tools ,0.076923077,0,0,0.923076923,1
+h,Allele Specific Expression ,0.2,0,0,0.8,1
+i,Viral Detection ,0.5,0,0,0.5,1
 ,,,,,,
 ,,,,,,
