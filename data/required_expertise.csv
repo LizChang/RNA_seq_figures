@@ -1,12 +1,13 @@
 ﻿domain,domain_name,easy,medium,hard,total
-d,Transcriptome Quantification and Annotation,0,18,19,37
+d,Transcriptome Quantification and Annotation,1,17,16,34
+e,Differential Expression,0,19,5,24
 b,Read Alignment,0,12,10,22
-g,Adaptive Immune Repertoire Profiling and Cell Deconvolution,0,8,13,21
-f,RNA Splicing and Differential Isoform Usage,0,9,10,19
-j,Fusion Detection ,1,6,9,16
-a,Data Quality Control and Read Trimming,1,10,4,15
-e,Differential Expression ,0,11,3,14
-c,Transcriptome assembly ,0,2,11,13
-k,Visualization Tools ,0,3,10,13
-h,Allele Specific Expression ,0,4,6,10
+g,Immune Repertoire Profiling and Cell Deconvolution,5,10,6,21
+f,RNA Splicing,0,8,12,20
+j,Fusion Detection,1,5,12,18
+a,Data Quality Control,1,11,4,16
+c,Transcriptome assembly ,0,3,13,16
+k,Small RNA detection,10,0,4,14
+l,Visualization Tools ,1,6,7,14
+h,Allele Specific Expression ,0,5,6,11
 i,Viral Detection ,0,2,2,4

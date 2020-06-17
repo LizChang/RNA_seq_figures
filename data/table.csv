@@ -1,218 +1,230 @@
-﻿Tool,Year Published,Notable Features,Programming Language,Package Manager,Required Expertise,Software,Archival Stability
-a. Raw Data QC ,,,,,,,
-iSeqQC43,2020,Expression-based QC tool that detects outliers,R,,++,https://github.com/gkumar09/iSeqQC,Stable
-FastQC44,2018,QC tool for for high throughput sequence data,"Java, Anaconda ",Anaconda,+++,http://www.bioinformatics.babraham.ac.uk/projects/fastqc/,PUF
-QC345,2014,Detection of batch effect and cross contamination,"Perl, R",Anaconda,+++,https://github.com/slzhao/QC3,Stable
-kPAL46,2014,Alignment-free assessment QC tool by analyzing k-mer frequencies,Python,Anaconda,+++,https://github.com/LUMC/kPAL,Stable
-HTQC47,2013,Read quality assessment and filtration,C++,,+++,https://sourceforge.net/projects/htqc/,Stable
-b. Read Trimming ,,,,,,,
-Trimmomatic48,2014,Trimming of reads ,Java,Anaconda,+++,http://www.usadellab.org/cms/index.php?page=trimmomatic,PUF
-Skewer49,2014,Adapter trimming of reads,C++,Anaconda,+++,https://sourceforge.net/projects/skewer,Stable
-Flexbar50,2012,Trimming of reads and adaptor removal,C++,Anaconda,+++,https://github.com/seqan/flexbar,Stable
-c. Read Alignment,,,,,,,
-deSALT51,2019,Long transcriptomic read alignment with de Bruijn graph-based index,C ,Anaconda,+++,https://github.com/ydLiu-HIT/deSALT,Stable
-Magic-BLAST52,2018,Aligner for long and short reads through optimization of a spliced alignment score,C++,,+++,https://ncbi.github.io/magicblast/,Stable
-Minimap253,2018,Alignment using seed chain alignment procedure,"C, Python",Anaconda,+++,https://github.com/lh3/minimap2,Stable
-DART54,2018,Burrows-Wheeler Transform based aligner which adopts partitioning strategy to divide a read into two groups,C/C++ ,Anaconda,+++,https://github.com/hsinnan75/DART,Stable
-ContextMap 255,2015,Allows parallel mapping against several reference genomes,Java ,,+++,http://www.bio.ifi.lmu.de/ContextMap,Unstable
-HISAT56,2015,Aligning reads using an indexing scheme based on the Burrows-Wheeler transform and the Ferragina-Manzini (FM) index,C++,Anaconda,+++,http://www.ccb.jhu.edu/software/hisat/index.shtml,Unstable
-Segemehl57 ,2014,"Multi-split mapping for circular RNA, trans-splicing, and fusion events in addition to performing splice alignment","C, C++, Perl, Python, Shell (Bash)",Anaconda,+++,(http://www.bioinf.uni-leipzig.de/Software/segemehl/).,PUF
-JAGuaR58,2014,Uses a modified GTF (Gene Transfer Format) of known splice sites to build the junction reference sequence ,Python,,+++,https://www.bcgsc.ca/resources/software/jaguar,PUF
-UnSplicer59,2014,Mapping spliced RNA-seq reads and filtering noisy splicing,C++,,+++,http://topaz.gatech.edu/GeneMark/license_download.cgi,PUF
-CRAC60,2013,K-mer profiling approach to map reads,C++,Anaconda,+++,http://crac.gforge.inria.fr/,PUF
-STAR16,2013,Aligns long reads against genome reference database,C++,Anaconda,+++,https://github.com/alexdobin/STAR,Stable
-Subread61,2013,"Mapping reads to a reference genome using multi-seed strategy, called seed-and-vote",C,Anaconda,+++,http://subread.sourceforge.net/,Stable
-TopHat217,2013,"Alignment of transcriptomes in the presence of insertions, deletions and gene fusions","C++, Python",Anaconda,+++,http://ccb.jhu.edu/software/tophat/index.shtml,PUF
-TrueSight62,2013,Utilizes iterative logistic regression for de novo identification of splice junctions and filtering out unreliable splice junctions,??,,,http://bioen-compbio.bioen.illinois.edu/TrueSight/,Unstable
-OSA63,2012,K-mer profiling approach to map reads,C#,,+++,http://www.arrayserver.com/wiki/index.php?title=OSA,PUF
-PASSion64,2012,Pattern growth pipeline for splice junction detection,"C++, Perl, Shell (Bash)",,+++,https://trac.nbic.nl/passion/,PUF
-SOAPSplice65,2011,Ab initio detection of splice junctions ,Perl,Anaconda,+++,http://soap.genomics.org.cn/soapsplice.html,Unstable
-MapSplice18,2010,De novo detection of splice junctions ,C++,Anaconda,+++,https://github.com/LiuBioinfo/MapSplice,Stable
-SpliceMap66,2010,De novo detection of splice junctions ,C++,Anaconda,+++,http://web.stanford.edu/group/wonglab/SpliceMap/,PUF
-Supersplat67,2010,De novo detection of splice junctions ,C++,,+++,http://mocklerlab.org/tools/1/manual,PUF
-HMMSplicer68,2010,Detection of splice junctions of short sequence reads,Python ,,+++,http://derisilab.ucsf.edu/software/hmmsplicer,PUF
-QPALMA69,2008,Spliced alignments of short sequence reads.,"C++, Python",,+++,http://www.raetschlab.org/suppl/qpalma,PUF
-d. Post Alignment QC,,,,,,,
-QuaCRS70,2014,QC control and assists in identification of quality issues by performing meta-analyses on QC metrics across large numbers of samples in different studies.,Python,,+++,https://github.com/kwkroll32/QuaCRS,Stable
-BlackOPs71,2013,Simulates experimental RNA-seq derived from the reference genome and aligns these sequences and outputs a blacklist of positions and alleles caused by mismapping,Perl,,+++,https://sourceforge.net/projects/rnaseqvariantbl/,Stable
-RSeQC72,2012,"Evaluates different aspects of RNA-seq experiments, such as sequence quality, GC bias, nucleotide composition bias, sequencing depth, strand specificity, coverage uniformity and read distribution over the genome structure.","Python, C",Anaconda,+++,http://rseqc.sourceforge.net/,Stable
-RNA-SeQC73,2012,RNA-seq metrics for quality control and process optimization,Java,Anaconda,+++,https://software.broadinstitute.org/cancer/cga/rna-seqc,PUF
-Seqbias74,2012,"Using a graphical model to increase accuracy of de novo gene annotation, uniformity of read coverage, consistency of nucleotide frequencies and agreement with qRT-PCR",R,"Anaconda, Bioconductor",++,http://master.bioconductor.org/packages/devel/bioc/html/seqbias.html,Stable
-SAMStat75,2011,Plotting nucleotide overrepresentation and other statistics in mapped and unmapped reads in a html page ,C,,+++,http://samstat.sourceforge.net,Stable
-Samtools76,2009,The Sequence Alignment/Map (SAM) format is a generic alignment format for storing read alignments against reference sequences and to visualize the Binary/Alignment Map (BAM).,"C, Perl",Anaconda,+++,https://github.com/samtools/samtools,Stable
-e. Gene/Transcriptome Annotation ,,,,,,,
-Annocript77,2015,Databases are downloaded to annotate protein coding transcripts with the prediction of putative long non-coding RNAs in whole transcriptomes.,"Perl, Python, R",,+++,https://github.com/frankMusacchia/Annocript,Stable
-CIRI78,2015,De novo circular RNA identification,Perl,,+++,https://sourceforge.net/projects/ciri/,Stable
-XSAnno79,2014,Improve the accuracy of inter-species transcriptome comparisons,"Perl, R",,+++,https://github.com/zhuying912/XSAnno,Stable
-GeneMark-ET80,2014,Integration of RNA-Seq read mapping into the training to improve estimation of parameters of the hidden semi-Markov model., ,Anaconda,,http://topaz.gatech.edu/license_download.cgi,PUF
-TSSAR81,2014,Automated de novo TSS annotation from differential RNA-seq data,"Java, Perl, R",Anaconda,+++,http://rna.tbi.univie.ac.at/TSSAR,PUF
-Vicinal82,2014,Determination of noncoding RNA ends with terminal stem loops by using chimeric reads ,"Python, Shell (Bash) ",,+++,https://github.com/zhipenglu/Vicinal,Stable
-AfterParty283,2013,"Web application that implements transcriptome assembly, annotation, browsing, searching, and visualization",Groovy,,+++,https://github.com/mojones/AfterParty2/wiki,Stable
-f. Transcriptome assembly ,,,,,,,
-StringTie84,2015,"Applies a network flow algorithm originally developed in optimization theory, together with optional de novo assembly, to assemble transcripts",C++,,+++,http://ccb.jhu.edu/software/stringtie,PUF
-Bridger85,2015,"Single-k de novo transcript assembler using a mathematical model, called the minimum path cover","C++, Perl",,+++,https://sourceforge.net/projects/rnaseqassembly/files/?source=navbar,Stable
-Bayesembler86,2014,Reference genome guided transcriptome assembly built on a Bayesian model ,C++,,+++,https://github.com/bioinformatics-centre/bayesembler.,Stable
-SEECER87,2013,De novo transcriptome assembly using hidden Markov Model (HMM) based method,R,,++,http://sb.cs.cmu.edu/seecer/,PUF
-BRANCH88,2013,De novo transcriptome assemblies by using genomic information that can be partial or complete genome sequences from the same or a related organism.,C++,,+++,https://github.com/baoe/BRANCH,Stable
-EBARDenovo89,2013,De novo transcriptome assembly uses an efficient chimera-detection function ,C#,,+++,https://sourceforge.net/projects/ebardenovo/,Stable
-Oases90,2012,De novo transcriptome assembly using k-mer profiling and building a de Brujin graph ,C,,+++,https://github.com/dzerbino/oases/tree/master,Stable
-Cufflinks91,2012,"Ab initio transcript assembly, estimates their abundances, and tests for differential expression",C++,,+++,https://github.com/cole-trapnell-lab/cufflinks,Stable
-IsoInfer92,2011,Infer isoforms from short reads,C/C++,,+++,http://www.cs.ucr.edu/~jianxing/IsoInfer.html,PUF
-IsoLasso93,2011,Reference genome guided using LASSO regression approach,C++,,+++,http://alumni.cs.ucr.edu/~liw/isolasso.html,PUF
-Trinity5,2011,De novo transcriptome assembly,"C++, Java, Perl, R, Shell (Bash) ",Anaconda,+++,https://github.com/trinityrnaseq/trinityrnaseq/wiki,Stable
-Trans-ABySS94,2010,De novo short-read transcriptome assembly and can also be used for fusion detection,Python,,+++,https://github.com/bcgsc/transabyss,Stable
-Scripture95,2010,Ab initio reconstruction of transcriptomes of pluripotent and lineage committed cells,Java,,+++,www.broadinstitute.org/software/Scripture/,PUF
-g. Transcriptome Quantification,,,,,,,
-TALON96,2019,Long-read transcriptome discovery and quantification,Python,,+++,https://github.com/dewyman/TALON,Stable
-FLAIR97,2018,Full-length alternative isoform analysis of RNA ,Python,Anaconda,+++,https://github.com/BrooksLabUCSC/FLAIR,Stable
-Salmon8,2017,"Composed of: lightweight-mapping model, an online phase that estimates initial expression levels and model parameters, and an offline phase that refines expression estimates",C++,Anaconda,+++,https://github.com/COMBINE-lab/Salmon,Stable
-Kallisto7,2016,K-mer based pseudoalignment for allligment free transcript and gene expression quantification ,"C, C++, Perl ",Anaconda,+++,https://github.com/pachterlab/kallisto,Stable
-Wub98,2016,Sequence and error simulation tool to calculate read and genome assembly accuracy.,Python,Anaconda,+++,https://github.com/nanoporetech/wub,Stable
-Rcount99,2015,GUI based tool for analysis of differential gene expression by assign priorities to certain feature types (e.g. higher priority for protein-coding genes compared to rRNA-coding genes),C++,,+++,https://github.com/MWSchmid/Rcount,Stable
-Ht-seq-count100,2015,Calculates gene counts by counting number of reads overlapping genes,Python,,+++,https://htseq.readthedocs.io/en/release_0.11.1/overview.html,PUF
-EMSAR101,2015,Estimation by mappability-based segmentation and reclustering using a joint Poisson model,C,,+++,https://github.com/parklab/emsar,Stable
-Maxcounts102,2014,Quantify the expression assigned to an exon as the maximum of its per-base counts ,C++,,+++,http://www.dei.unipd.it/~finotell/maxcounts/,PUF
-FIXSEQ103,2014,A nonparametric and universal method for processing per-base sequencing read count data,R,,++,https://bitbucket.org/thashim/fixseq/src/master/,Stable
-Sailfish104,2014,EM based quantification using statistical coupling between k-mers,"C, C++ ",Anaconda,+++,https://github.com/kingsfordgroup/sailfish,Stable
-Casper105,2014,Bayesian modeling framework to quantify alternative splicing,R,"Anaconda, Bioconductor",++,http://www.bioconductor.org/packages/release/bioc/html/casper.html,Stable
-Featurecounts106,2014,Read summarization program for counting reads generated,R,,++,http://subread.sourceforge.net/,Stable
-iReckon107 ,2013,EM-based method to accurately estimate the abundances of known and novel isoforms,,,,http://compbio.cs.toronto.edu/ireckon/,PUF
-eXpress108,2013,Online EM based algorithm for quantification which considers one read at a time,,Anaconda,,https://pachterlab.github.io/eXpress/manual.html,Stable
-BitSeq109,2012,Bayseian inference of transcripts ,"C++, R","Anaconda, Bioconductor",+++,https://github.com/BitSeq/BitSeq,Stable
-IQSeq110,2012,Integrated isoform quantification analysis,,,,http://archive.gersteinlab.org/proj/rnaseq/IQSeq/,PUF
-CEM111,2012,Statistical framework for both transcriptome assembly and isoform expression level estimation,Python,,+++,http://alumni.cs.ucr.edu/~liw/cem.html,PUF
-SAMMate112,2011,GUI based tool to calculate the gene expression abundance scores for customized genomic intervals using short reads ,,,,http://sammate.sourceforge.net/,Stable
-Isoformex113,2011,Estimation method to estimate the expression levels of transcript isoforms.,,,,http://bioinformatics.wistar.upenn.edu/isoformex,Unstable
-RUM114,2011,Comparative analysis of RNA-Seq alignment algorithms and the RNA-Seq unified mapper,"Perl, Python ",,+++,http://www.cbil.upenn.edu/RUM/,PUF
-DRUT115 ,2011,"Enhance existing transcriptome assemblers, such as Cufflinks, as well as to accurately estimate the transcript frequencies.",,,,http://www.cs.gsu.edu/~serghei/?q=drut,Unstable
-Isoem116,2011,EM based method for inference of isoform and gene-specific expression levels ,Java,,+++,http://dna.engr.uconn.edu/software/IsoEM/.,PUF
-Rsem117,2011,EM based method for inference of isoform and gene-specific expression levels ,"C++, Perl, Python, R",Anaconda,+++,https://github.com/deweylab/RSEM,Stable
-NOISeq118,2011,Models noise distribution from the actual data to reduce false positives ,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/NOISeq.html,Stable
-EDASeq119,2011,Within-lane gene-level GC-content normalization approaches to reduce bias in differential expression analysis ,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/devel/bioc/html/EDASeq.html,Stable
-MMSEQ120,2011,Haplotype and isoform specific expression estimation,"C, C++, R, Ruby, Shell (Bash)  ",Anaconda,+++,https://github.com/eturro/mmseq#mmseq-transcript-and-gene-level-expression-analysis-using-multi-mapping-rna-seq-reads,Stable
-MISO121,2010,Statistical model that estimates expression of alternatively spliced exons and isoforms,"C, Python ",,+++,https://miso.readthedocs.io/en/fastmiso/#latest-version-from-github,Stable
-SOLAS122,2010,Prediction of alternative isoforms from exon expression levels ,R,,++,http://cmb.molgen.mpg.de/2ndGenerationSequencing/Solas/,PUF
-Rseq123,2009,Statistical inferences for isoform expression,,,,http://www-personal.umich.edu/~jianghui/rseq/#download,PUF
-rQuant124,2009,Estimating density biases and considering the read coverages at each nucleotide independently using quadratic programming ,,,,https://galaxy.inf.ethz.ch/?tool_id=rquantweb&version=2.2&__identifer=3iuqb8nb3wf,PUF
-ERANGE2 ,2008,Mapping and quantifying mammalian transcripts ,Python,,+++,http://woldlab.caltech.edu/rnaseq,PUF
-h. Differential Expression ,,,,,,,
-Swish125,2019,Non-parametric model for differential expression analysis using inferential replicate counts,R,Bioconductor,++,https://bioconductor.org/packages/release/bioc/html/fishpond.html,Stable
-Limma/Voom126,2015,Linear model-based differential expression and differential splicing analyses,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/limma.html,Stable
-Ballgown127,2015,Linear model–based differential expression analyses,R,"Anaconda, Bioconductor",++,https://github.com/alyssafrazee/ballgown,Stable
-DESeq-226,2014,"Differential analysis of count data, using shrinkage estimation for dispersions and fold changes",R,"Bioconductor, CRAN",++,https://bioconductor.org/packages/release/bioc/html/DESeq2.html,Stable
-Corset128,2014,Differential gene expression analysis for de novo assembled transcriptomes,C++,Anaconda,+++,https://github.com/Oshlack/Corset/wiki,Stable
-BADGE129,2014,Bayesian model for accurate abundance quantification and differential analysis,,,,http://www.cbil.ece.vt.edu/software.htm,PUF
-compcodeR130,2014,Benchmarking of differential expression analysis methods,R,"Anaconda, Bioconductor",++,http://www.bioconductor.org/packages/release/bioc/html/compcodeR.html,Stable
-metaRNASeq131,2014,Differential meta-analyses of RNA-seq data ,R,"Anaconda, CRAN",++,http://cran.r-project.org/web/packages/metaRNASeq,PUF
-Characteristic Division132,2014,Geometrical multivariate approach to identify differentially expressed genes ,"R, Python, MATLAB",,+++,http://www.maayanlab.net/CD,PUF
-NPEBSeq133,2013,Nonparametric empirical bayesian-based procedure for differential expression analysis,R,,++,http://bioinformatics.wistar.upenn.edu/NPEBseq,Unstable
-EBSeq134,2013,Identifying differentially expressed isoforms.,R,"Anaconda, Bioconductor",++,http://bioconductor.org/packages/release/bioc/html/EBSeq.html,Stable
-sSeq135,2013,Shrinkage estimation of dispersion in Negative Binomial models ,R,"Anaconda, Bioconductor",++,http://bioconductor.org/packages/release/bioc/html/sSeq.html,Stable
-Cuffdiff2136,2013,Differential analysis at transcript resolution,,,,http://cole-trapnell-lab.github.io/cufflinks/cuffdiff/,PUF
-EdgeR27,2010,Examining differential expression of replicated count data,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/edgeR.html,Stable
-i. RNA Splicing and Differential Isoform Usage,,,,,,,
-LeafCutter33,2018,Detect differential splicing and maps quantitative trait loci (sQTLs).,R,Anaconda,++,https://github.com/davidaknowles/leafcutter.git,Stable
-MAJIQ/MAJIQ-SPEL32,2018,Web-tool that takes as input local splicing variations (LSVs) quantified from RNA-Seq data and provides users with visualization and quantification of gene isoforms associated with those. ,,,,https://majiq.biociphers.org/commercial.php,PUF
-SplAdder137,2016,"Identification, quantification and testing of alternative splicing events",Python,,+++,http://github.com/ratschlab/spladder,Stable
-SplicePie138 ,2015,"Detection of alternative, non-sequential and recursive splicing",,,,https://github.com/pulyakhina/splicing_analysis_pipeline,Stable
-SUPPA139,2015,Alternative splicing analysis ,"Python, R",Anaconda,+++,https://bitbucket.org/regulatorygenomicsupf/suppa,Stable
-SNPlice140,2015,Identifying variants that modulate Intron retention,Python,,+++,https://code.google.com/p/snplice/,Stable
-IUTA141,2014,Detecting differential isoform usage,R,,++,http://www.niehs.nih.gov/research/resources/software/biostatistics/iuta/index.cfm.,Stable
-SigFuge142,2014,Identifying genomic loci exhibiting differential transcription patterns,R,"Anaconda, Bioconductor",++,http://bioconductor.org/packages/release/bioc/html/SigFuge.html,Stable
-FineSplice143,2014,Splice junction detection and quantification,Python,,+++,https://sourceforge.net/p/finesplice/,Stable
-PennSeq144,2014,Statistical method that allows each isoform to have its own non-uniform read distribution,,,,http://sourceforge.net/projects/pennseq,Stable
-FlipFlop145,2014,RNA isoform identification and quantification with network flows,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/flipflop.html,Stable
-GESS146,2014,Graph-based exon-skipping scanner for de novo detection of skipping event sites,,,,http://motif.bmi.ohio-state.edu/GESS_Web/,Unstable
-CLASS147,2014,Splice variant annotation ,,Anaconda,,https://sourceforge.net/projects/splicebox/,Stable
-spliceR148,2013,Classification of alternative splicing and prediction of coding potential,R,"Anaconda, Bioconductor",++,http://www.bioconductor.org/packages/2.13/bioc/html/spliceR.html,Stable
-RNASeq-MATS149,2013,Detects and analyzes differential alternative splicing events ,"C, Python",,+++,http://rnaseq-mats.sourceforge.net/,Stable
-SplicingCompass150,2013,Differential splicing detection ,R,,++,http://www.ichip.de/softwa,PUF
-DiffSplice151 ,2013,Genome-wide detection of differential splicing,,,,http://www.netlab.uky.edu/p/bioinfo/DiffSplice,PUF
-DEXSeq152,2012,Statistical method to test for differential exon usage.,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/DEXSeq.html,Stable
-Splicetrap153,2011,Quantify exon inclusion levels using Bayesian inference,"Perl, R",,+++,http://rulai.cshl.edu/splicetrap/,PUF
-ALEXA-seq154,2010,Alternative expression analysis.,,,,http://www.alexaplatform.org/alexa_seq/.,PUF
-j. Cell Deconvolution ,,,,,,,
-CIBERSORTx35,2019,Impute gene expression profiles and provide an ,"Java, R",,+++,https://cibersortx.stanford.edu/,PUF
-,,estimation of the abundances of member cell types in a mixed cell population,,,,,
-quanTIseq36,2019,Quantify the fractions of ten immune cell types from bulk RNA-sequencing data,,,,https://icbi.i-med.ac.at/software/quantiseq/doc/index.html#installation-section,PUF
-Immunedeconv155,2019,Benchmarking of transcriptome-based cell-type quantification methods for immuno-oncology,R ,Anaconda,++,https://github.com/icbi-lab/immunedeconv,Stable
-Linseed156,2019,Deconvolution of cellular mixtures based on linearity of transcriptional signatures,,,,https://github.com/ctlab/LinSeed,Stable
-deconvSEQ157,2019,Deconvolution of cell mixture distribution based on a linear model,R,,++,https://github.com/rosedu1/deconvSeq,Stable
-CDSeq34,2019,Simultaneously estimate both cell-type proportions and cell-type-specific expression profiles,MATLAB ,,+++,https://github.com/kkang7/CDSeq.,Stable
-Dtangle158,2019,"Estimates cell type proportions using publicly available, often cross-platform, reference data.",R ,"Anaconda, CRAN",++,https://github.com/gjhunt/dtangle,Stable
-GEDIT159,2019,Estimate cell type abundances,,,,http://webtools.mcdb.ucla.edu/,PUF
-TIMER160,2017,Web Server for comprehensive analysis of Tumor-Infiltrating Immune Cells,,,,http://timer.cistrome.org/,PUF
-SaVant161,2017,Web-based tool for the sample-level visualization of molecular signatures in gene expression profiles,Java,,+++,http://newpathways.mcdb.ucla.edu/savant,Unstable
-EPIC162 ,2017,GUI which simultaneously estimate the fraction of cancer and immune cell types,R ,Anaconda,++,https://github.com/GfellerLab/EPIC,Stable
-WSCUnmix163 ,2017,Automated deconvolution of structured mixtures,MATLAB,,+++,https://github.com/tedroman/WSCUnmix,Stable
-Infino164,2017,Bayesian hierarchical model improves estimates of immune infiltration into tumor microenvironment,,,,https://github.com/hammerlab/infino-docker,Stable
-MCP-counter165,2016,Estimating the population abundance of tissue-infiltrating immune and stromal cell populations ,R,,++,https://github.com/ebecht/MCPcounter,Stable
-CellCode166 ,2015,Latent variable approach to differential expression analysis for heterogeneous cell populations,R,,++,http://www.pitt.edu/~mchikina/CellCODE/,PUF
-PERT167,2012,Probabilistic expression deconvolution method,MATLAB,,+++,https://github.com/gquon/PERT,Stable
-k. Adaptive immune repertoire profiling,,,,,,,
-ImReP37,2018,Profiling immunoglobulin repertoires across multiple human tissues,Python,,+++,https://github.com/mandricigor/imrep/wiki,Stable
-TRUST (T cell)168,2016,Landscape of tumor-infiltrating T cell repertoire of human cancers,,,,https://github.com/liulab-dfci/TRUST4,Stable
-V’DJer 169,2016,Assembly-based inference of B-cell receptor repertoires from short reads with V’DJer,"C, C++",Anaconda,+++,https://github.com/mozack/vdjer,Stable
-IgBlast-based pipeline170,2016,Statistical inference of a convergent antibody repertoire response,,,,https://www.ncbi.nlm.nih.gov/igblast/,Stable
-MiXCR171,2015,Processes big immunome data from raw sequences to quantitated clonotypes,Java,Anaconda,+++,https://github.com/milaboratory/mixcr,Stable
-"l. Variant (e.g., SNP) and mutation detection",,,,,,,
-eSNV-detect172,2016,Identify expressed single nucleotide variants,,,,http://bioinformaticstools.mayo.edu/research/esnv-detect/,PUF
-RVboost173 ,2014,RNA variant prioritization,"Perl, R, Shell (Bash) ",,+++,http://bioinformaticstools.mayo.edu/research/rvboost/,PUF
-sQTLseekeR174 ,2014,Statistical framework to identify genetic variants ,R,,++,http://big.crg.cat/computational_biology_of_rna_processing/sqtlseeker,PUF
-RADIA38,2014,Detecting somatic mutations ,Python,,+++,https://github.com/aradenbaugh/radia/,Stable
-SNiPloid175,2013,Exploit SNP data derived from RNA-Seq in allopolyploid species,,,,http://sniplay.cirad.fr/cgi-bin/sniploid.cgi,PUF
-SNPiR39 ,2013,Identify SNPs in RNA-seq data.,,,,http://lilab.stanford.edu/SNPiR/,PUF
-QualitySNPng176 ,2013,SNP detection and visualization tool,C++,,+++,http://www.bioinformatics.nl/QualitySNPng,PUF
-RNAmapper177 ,2013,Identification of mutations from forward genetic screens,,,,http://www.RNAmapper.org,PUF
-SNVMix178 ,2010,Predicting single nucleotide variants,"C, Perl ",,+++,http://compbio.bccrc.ca,PUF
-m. RNA Editing ,,,,,,,
-GIREMI179,2015,Genome Sequence-Independent Identification of RNA Editing Sites,"C, Perl, R",,+++,https://github.com/zhqingit/giremi,Stable
-REDItools180,2013,Investigation of RNA editing from NGS data,Python,,+++,https://github.com/BioinfoUNIBA/REDItools,Stable
-n. Allele Specific Expression ,,,,,,,
-ANEVA/ANEVA-DOT181,2019,Quantify genetic variation in gene dosage from allelic expression (AE) data in a population,R,,++,https://github.com/PejLab/ANEVA-DOT,Stable
-aFC40,2017,Quantifying the regulatory effect size of cis-acting genetic variation,Python,,+++,https://github.com/secastel/aFC,Stable
-phASER182,2016,Uses readback phasing to produce haplotype level ASE data (as opposed to SNP level),,,,https://github.com/secastel/phaser,Stable
-RASQUAL183,2016,Maps QTLs for sequenced based cellular traits by combining population and allele-specific signals.,,,,https://github.com/dg13/rasqual,Stable
-allelecounter184,2015,Counts the number of reads which map to either the reference or alternate allele at each heterozygous SNP.,Python,,+++,https://github.com/secastel/allelecounter,Stable
-WASP185,2015,Unbiased allele-specific read mapping and discovery of molecular QTLs,"C, Python",Anaconda,+++,https://github.com/bmvdgeijn/WASP/,Stable
-Mamba186 ,2015,Compares different patterns of ASE across tissues,,,,http://www.well.ox.ac.uk/~rivas/mamba/.,PUF
-EMASE/MBASED 187,2014,Allele-specific expression detection in cancer tissues and cell lines,Python,Anaconda,+++,https://github.com/churchill-lab/emase,Stable
-Allim188 ,2013,Estimates allele-specific gene expression.,"Python, R",,+++,https://sourceforge.net/projects/allim/,Stable
-AlleleSeq189,2011,Identifies allele-specific events in mapped reads between maternal and paternal alleles.,,,,http://alleleseq.gersteinlab.org/,PUF
-o. Viral Detection ,,,,,,,
-ROP42 ,2018,Dumpster diving in RNA-sequencing to find the source of 1 trillion reads across diverse adult human tissues," Python, Bash  ",Anaconda,,https://github.com/smangul1/rop,Stable
-CoMPASS190,2014,Simultaneous analysis of transcriptomes and metatranscriptomes from diverse biological specimens., ,Anaconda,,http://rnacompass.sourceforge.net/,Stable
-VirusSeq191,2013,Identify viruses and their integration sites using next-generation sequencing of human cancer tissues,,,,http://odin.mdacc.tmc.edu/∼xsu1/VirusSeq.html,PUF
-VirusFinder41,2013,Detection of Viruses and Their Integration Sites in Host Genomes through Next Generation Sequencing Data,Perl,,+++,http://bioinfo.mc.vanderbilt.edu/VirusFinder/,PUF
-p. Fusion Detection ,,,,,,,
-TRUP192 ,2015,Combines split-read and read-pair analysis with de novo assembly for the identification of chimeric transcripts in cancer specimens.,,,,https://github.com/ruping/TRUP,Stable
-Chimera193 ,2014,"Organizes, annotates, analyses and validates fusions reported by different fusion detection tools",R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/chimera.html,Stable
-PRADA194 ,2014,"Detection of unsupervised and supervised fusion transcripts, detection of intragenic fusion variants, homology scores and fusion frame classification.",,Anaconda,,http://sourceforge.net/projects/prada/,Stable
-Pegasus195,2014,Annotation and prediction of biologically  functional gene fusion candidates.,"Java, Perl, Python, Shell (Bash) ",,+++,https://github.com/RabadanLab/Pegasus,Stable
-FusionCatcher196,2014,Finding somatic fusion genes,Python,Anaconda,+++,https://github.com/ndaniel/fusioncatcher,Stable
-FusionQ197,2013,Gene fusion detection and quantification from paired-end RNA-Seq,,,,http://www.wakehealth.edu/CTSB/Software/Software.htm,PUF
-Barnacle198 ,2013,Detecting and characterizing tandem duplications and fusions in de novo transcriptome assemblies,,,,http://www.bcgsc.ca/platform/bioinfo/software/barnacle,PUF
-Dissect199 ,2012,Detection and characterization of structural alterations in transcribed sequences,,,,http://dissect-trans.sourceforge.net,Stable
-BreakFusion200,2012,Targeted assembly-based identification of gene fusions,"C++, Perl ",,+++,https://bioinformatics.mdanderson.org/public-software/breakfusion/,PUF
-EricScript201,2012,Identification of gene fusion products in paired-end RNA-seq data.,"Perl, R, Shell (Bash)",Anaconda,+++,http://ericscript.sourceforge.net,Stable
-Bellerophontes202,2012,Chimeric transcripts discovery based on  fusion model,"Java, Perl, Shell (Bash) ",,+++,http://eda.polito.it/bellerophontes/,PUF
-GFML203 ,2012,Standard format for organizing and representing the significant features of gene fusion data,,,,http://code.google.com/p/gfml-prototype/,Stable
-FusionHunter204,2011,Identifies fusion transcripts from transcriptional analysis,,,,http://bioen-compbio.bioen.illinois.edu/FusionHunter/.,Unstable
-ChimeraScan205,2011,Identifying chimeric transcription,Python,Anaconda,+++,https://code.google.com/archive/p/chimerascan/downloads,Stable
-TopHat-fusion206,2011,Discovery of novel fusion transcripts,,,,http://ccb.jhu.edu/software/tophat/fusion_index.shtml,PUF
-deFuse207,2011,Fusion discovery in tumor RNA-Seq data,"C++, Perl, R",Anaconda,+++,https://github.com/amcpherson/defuse/blob/master/README.md,Stable
-q. Visualization Tools ,,,,,,,
-ReadXplorer208,2016,Read mapping analysis and visualization ,Java,,+++,https://www.uni-giessen.de/fbz/fb08/Inst/bioinformatik/software/ReadXplorer,PUF
-Sashimi plots209 ,2015,Quantitative visualization comparison of exon usage,"Python, C",,+++,http://miso.readthedocs.org/en/fastmiso/sashimi.html,PUF
-ASTALAVISTA210 ,2015,Reports all alternative splicing events reflected by transcript annotations,,Anaconda,,http://astalavista.sammeth.net/,PUF
-RNASeqBrowser211,2015,Incorporates and extends the functionality of the UCSC genome browser,,,,http://www.australianprostatecentre.org/research/software/rnaseqbrowser,PUF
-SplicePlot212,2014,Visualizing splicing quantitative trait loci,Python,,+++,http://montgomerylab.stanford.edu/spliceplot/index.html,PUF
-RNASeqViewer213,2014,Compare gene expression and alternative splicing ,Python ,,+++,https://sourceforge.net/projects/rnaseqbrowser/,Stable
-Integrated Genome Browser214,2014,Desktop tool that enables quantification of alternative splicing,,,,http://www.bioviz.org/,PUF
-PrimerSeq215 ,2014,Systematic design and visualization of RT-PCR primers using RNA seq data,,,,http://primerseq.sourceforge.net/,Stable
-Epiviz216,2014,Combining algorithmic-statistical analysis and interactive visualization,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/epivizr.html,Stable
-RNAbrowse217 ,2014,RNA-Seq De Novo Assembly Results Browser,,,,http://bioinfo.genotoul.fr/RNAbrowse,Unstable
-ZENBU218,2014,Interactive visualization and analysis of large-scale sequencing datasets,"C++, Javascript ",,+++,https://zenbu-wiki.gsc.riken.jp/zenbu/wiki/index.php/ZENBU_genome_browser,PUF
-CummeRbund91,2012,Navigate through data produced from a Cuffdiff RNA-Seq differential expression analysis,R,"Anaconda, Bioconductor",++,http://bioconductor.org/packages/devel/bioc/html/cummeRbund.html,Stable
-SpliceSeq219,2012,Visualization of RNA-Seq data on alternative splicing,Java,,+++,http://bioinformatics.mdanderson.org/main/SpliceSeq:Overview.,PUF
-Splicing Viewer220,2012,Visualization of splice junctions and alternative splicing,Java,,+++,http://bioinformatics.zj.cn/splicingviewer.,PUF
+﻿Tool,year_pub,num_citations,citation_per_year,category,package_manager,required_expertise,type_of_URL
+a. Data Quality Control,,,,,,,
+iSeqQC,2020,0,0,Data Quality Control,N/A,++,1
+qsmooth2,2018,,,Data Quality Control,Bioconductor,++,1
+FastQC,2018,75,37.5,Data Quality Control,Anaconda,++,1
+QC3,2014,64,10.66666667,Data Quality Control,Anaconda,++,1
+kPAL,2014,18,3,Data Quality Control,Anaconda,++,1
+HTQC,2013,108,15.42857143,Data Quality Control,N/A,+++,1
+Trimmomatic,2014,15413,2568.833333,Data Quality Control,Anaconda,++,2
+Skewer,2014,458,76.33333333,Data Quality Control,Anaconda,++,1
+Flaxbar,2012,385,48.125,Data Quality Control,Anaconda,++,1
+QuaCRS,2014,30,5,Data Quality Control,N/A,+++,1
+BlackOPs,2013,19,2.714285714,Data Quality Control,N/A,+++,1
+RSeQC,2012,843,105.375,Data Quality Control,Anaconda,++,1
+RNA-SeQC,2012,462,57.75,Data Quality Control,Anaconda,++,2
+Seqbias,2012,34,4.25,Data Quality Control,"Anaconda, Bioconductor",++,1
+SAMStat,2011,137,15.22222222,Data Quality Control,N/A,+++,1
+Samtools,2009,24339,2212.636364,Data Quality Control,Anaconda,+,1
+b. Read Alignment,,,,,,,
+deSALT,2019,0,0,Read Alignment,Anaconda,++,1
+Magic-BLAST,2018,13,6.5,Read Alignment,N/A,+++,1
+Minimap2,2018,810,405,Read Alignment,Anaconda,++,1
+DART,2018,8,4,Read Alignment,Anaconda,++,1
+MMR,2016,,,Read Alignment,N/A,+++,1
+ContextMap2,2015,35,7,Read Alignment,N/A,+++,2
+HISAT,2015,3986,797.2,Read Alignment,Anaconda,++,2
+Segemehl,2014,166,27.66666667,Read Alignment,Anaconda,++,2
+JAGuaR,2014,31,5.166666667,Read Alignment,N/A,+++,2
+CRAC,2013,72,10.28571429,Read Alignment,Anaconda,++,2
+STAR,2013,10884,1554.857143,Read Alignment,Anaconda,++,1
+Subread,2013,1215,173.5714286,Read Alignment,Anaconda,++,1
+TopHat2,2013,8374,1196.285714,Read Alignment,Anaconda,++,2
+OSA,2012,87,10.875,Read Alignment,N/A,+++,2
+PASSion,2012,37,4.625,Read Alignment,N/A,+++,2
+RUM,2011,335,37.22222222,Read Alignment,N/A,+++,2
+SOAPSplice,2011,126,14,Read Alignment,Anaconda,++,2
+MapSplice,2010,903,90.3,Read Alignment,Anaconda,++,1
+SpliceMap,2010,365,36.5,Read Alignment,Anaconda,++,2
+Supersplat,2010,61,6.1,Read Alignment,N/A,+++,2
+HMMSplicer,2010,80,8,Read Alignment,N/A,+++,2
+QPALMA,2008,179,14.91666667,Read Alignment,N/A,+++,2
+c. Transcriptome assembly,,,,,,,
+FLAIR,2020,11,11,Transcriptome assembly,Anaconda,++,1
+Scallop,2017,,,Transcriptome assembly,Anaconda,+++,1
+CLASS,2016,30,7.5,Transcriptome assembly,Anaconda,++,1
+StringTie,2015,1665,333,Transcriptome assembly,N/A,+++,2
+Bridger,2015,170,34,Transcriptome assembly,N/A,+++,1
+Bayesembler,2014,44,7.333333333,Transcriptome assembly,N/A,+++,1
+SEECER,2013,79,11.28571429,Transcriptome assembly,N/A,+++,2
+BRANCH,2013,29,4.142857143,Transcriptome assembly,N/A,+++,1
+EBARDenovo,2013,38,5.428571429,Transcriptome assembly,N/A,+++,1
+Oases,2012,1302,162.75,Transcriptome assembly,N/A,+++,1
+Cufflinks,2012,8219,1027.375,Transcriptome assembly,N/A,+++,1
+IsoInfer,2011,61,6.777777778,Transcriptome assembly,N/A,+++,2
+IsoLasso,2011,176,19.55555556,Transcriptome assembly,N/A,+++,2
+Trinity,2011,9481,1053.444444,Transcriptome assembly,Anaconda,++,1
+Trans-ABySS,2010,839,83.9,Transcriptome assembly,N/A,+++,1
+Scripture,2010,1229,122.9,Transcriptome assembly,N/A,+++,2
+d. Transcriptome Quantification and Annotation,,,,,,,
+SQANTI,2018,,,Transcriptome Quantification and Annotation,Anaconda,++,1
+Annocript,2015,74,14.8,Transcriptome Quantification and Annotation,N/A,+++,1
+CIRI,2015,373,74.6,Transcriptome Quantification and Annotation,N/A,+++,1
+TSSAR,2014,49,8.166666667,Transcriptome Quantification and Annotation,Anaconda,++,2
+TALON,2019,2,2,Transcriptome Quantification and Annotation,N/A,+++,1
+Salmon,2017,1407,469,Transcriptome Quantification and Annotation,Anaconda,++,1
+Kallisto,2016,2341,585.25,Transcriptome Quantification and Annotation,Anaconda,++,1
+Wub,2016,,0,Transcriptome Quantification and Annotation,Anaconda,++,1
+Rcount,2015,21,4.2,Transcriptome Quantification and Annotation,N/A,+,1
+Ht-seq,2015,,,Transcriptome Quantification and Annotation,pip,++,2
+Ht-seq-count,2015,8004,1600.8,Transcriptome Quantification and Annotation,N/A,++,2
+EMSAR,2015,14,2.8,Transcriptome Quantification and Annotation,N/A,+++,1
+Maxcounts,2014,38,6.333333333,Transcriptome Quantification and Annotation,N/A,+++,2
+FIXSEQ,2014,15,2.5,Transcriptome Quantification and Annotation,N/A,++,1
+Sailfish,2014,491,81.83333333,Transcriptome Quantification and Annotation,Anaconda,++,1
+Casper,2014,26,4.333333333,Transcriptome Quantification and Annotation,"Anaconda, Bioconductor",++,1
+MaLTA,2014,,,Transcriptome Quantification and Annotation,N/A,+++,2
+Featurecounts,2014,4341,723.5,Transcriptome Quantification and Annotation,N/A,++,1
+MITIE,2013,,,Transcriptome Quantification and Annotation,N/A,+++,1
+iReckon,2013,119,17,Transcriptome Quantification and Annotation,N/A,+++,2
+eXpress,2013,660,94.28571429,Transcriptome Quantification and Annotation,Anaconda,++,1
+BitSeq,2012,196,24.5,Transcriptome Quantification and Annotation,"Anaconda, Bioconductor",++,1
+IQSeq,2012,8,1,Transcriptome Quantification and Annotation,N/A,+++,2
+CEM,2012,77,9.625,Transcriptome Quantification and Annotation,N/A,+++,2
+SAMMate,2011,63,7,Transcriptome Quantification and Annotation,N/A,+++,1
+Isoformex,2011,29,3.222222222,Transcriptome Quantification and Annotation,N/A,N/A,2
+IsoEM,2011,183,20.33333333,Transcriptome Quantification and Annotation,N/A,+++,2
+RSEM,2011,7152,794.6666667,Transcriptome Quantification and Annotation,Anaconda,++,1
+EDASeq,2011,645,71.66666667,Transcriptome Quantification and Annotation,"Anaconda, Bioconductor",++,1
+MMSEQ,2011,220,24.44444444,Transcriptome Quantification and Annotation,Anaconda,++,1
+MISO,2010,1059,105.9,Transcriptome Quantification and Annotation,N/A,+++,2
+SOLAS,2010,191,19.1,Transcriptome Quantification and Annotation,N/A,++,2
+Rseq,2009,494,44.90909091,Transcriptome Quantification and Annotation,N/A,+++,2
+rQuant,2009,24,2.181818182,Transcriptome Quantification and Annotation,N/A,+++,2
+ERANGE,2008,10932,911,Transcriptome Quantification and Annotation,N/A,+++,2
+e. Differential Expression,,,,,,,
+Swish,2019,6,6,Differential Expression,Bioconductor,++,1
+Yanagi,2019,,,Differential Expression,N/A,+++,1
+Whippet,2018,,,Differential Expression,N/A,+++,1
+ReQTL,2018,,,Differential Expression,N/A,++,1
+vast-tools,2017,,,Differential Expression,N/A,+++,1
+Limma/Voom,2015,7532,1506.4,Differential Expression,"Anaconda, Bioconductor",++,1
+Ballgown,2015,242,48.4,Differential Expression,"Anaconda, Bioconductor",++,1
+rMATS,2014,,,Differential Expression,Anaconda,++,1
+DESeq2,2014,15586,2597.666667,Differential Expression,"Bioconductor, CRAN",++,1
+Corset,2014,206,34.33333333,Differential Expression,Anaconda,++,1
+BADGE,2014,11,1.833333333,Differential Expression,N/A,+++,2
+compcodeR,2014,25,4.166666667,Differential Expression,"Anaconda, Bioconductor",++,1
+metaRNASeq,2014,49,8.166666667,Differential Expression,"Anaconda, CRAN",++,1
+Characteristic Division,2014,92,15.33333333,Differential Expression,N/A,++,2
+HTSFilter,2013,,,Differential Expression,"Anaconda, Bioconductor",++,1
+NPEBSeq,2013,35,5,Differential Expression,N/A,++,2
+EBSeq,2013,821,117.2857143,Differential Expression,"Anaconda, Bioconductor",++,1
+sSeq,2013,79,11.28571429,Differential Expression,"Anaconda, Bioconductor",++,1
+Cuffdiff2,2013,2551,364.4285714,Differential Expression,N/A,+++,1
+SAMseq,2013,,,Differential Expression,CRAN,++,1
+DSGseq,2013,,,Differential Expression,N/A,++,2
+NOISeq,2011,1096,121.7777778,Differential Expression,"Anaconda, Bioconductor",++,1
+EdgeR,2010,14811,1481.1,Differential Expression,"Anaconda, Bioconductor",++,1
+DEGseq,2010,,,Differential Expression,Bioconductor,++,1
+f. RNA Splicing,,,,,,,
+LeafCutter,2018,119,59.5,RNA Splicing,Anaconda,++,1
+MAJIQ-SPEL,2018,2,1,RNA Splicing,N/A,+++,2
+MAJIQ,2016,,,RNA Splicing,N/A,+++,2
+SplAdder,2016,42,10.5,RNA Splicing,N/A,+++,1
+SplicePie,2015,16,3.2,RNA Splicing,N/A,+++,1
+SUPPA,2015,99,19.8,RNA Splicing,Anaconda,++,1
+SNPlice,2015,11,2.2,RNA Splicing,N/A,+++,1
+IUTA,2014,15,2.5,RNA Splicing,N/A,++,1
+SigFuge,2014,17,2.833333333,RNA Splicing,"Anaconda, Bioconductor",++,1
+FineSplice,2014,24,4,RNA Splicing,N/A,+++,1
+PennSeq,2014,32,5.333333333,RNA Splicing,N/A,+++,1
+FlipFlop,2014,63,10.5,RNA Splicing,"Anaconda, Bioconductor",++,1
+GESS,2014,22,3.666666667,RNA Splicing,N/A,N/A,2
+spliceR,2013,71,10.14285714,RNA Splicing,"Anaconda, Bioconductor",++,1
+RNASeq-MATS,2013,34,4.857142857,RNA Splicing,N/A,+++,1
+SplicingCompass,2013,57,8.142857143,RNA Splicing,N/A,++,2
+DiffSplice,2013,129,18.42857143,RNA Splicing,N/A,+++,2
+DEXSeq,2012,924,115.5,RNA Splicing,"Anaconda, Bioconductor",++,1
+SpliceSeq,2012,101,12.625,RNA Splicing,N/A,+++,2
+JuncBASE,2011,,,RNA Splicing,N/A,+++,1
+ALEXA-seq,2010,309,30.9,RNA Splicing,N/A,+++,1
+g. Immune Repertoire Profiling and Cell Deconvolution,,,,,,,
+TIMER2.0,2010,,,Immune Repertoire Profiling and Cell Deconvolution,N/A,+,1
+CIBERSORTx,2019,39,39,Immune Repertoire Profiling and Cell Deconvolution,N/A,+,2
+quanTIseq,2019,21,21,Immune Repertoire Profiling and Cell Deconvolution,N/A,+,2
+Immunedeconv,2019,20,20,Immune Repertoire Profiling and Cell Deconvolution,Anaconda,++,1
+Linseed,2019,7,7,Immune Repertoire Profiling and Cell Deconvolution,N/A,++,1
+deconvSEQ,2019,3,3,Immune Repertoire Profiling and Cell Deconvolution,N/A,++,1
+CDSeq,2019,1,1,Immune Repertoire Profiling and Cell Deconvolution,N/A,++,1
+Dtangle,2019,2,2,Immune Repertoire Profiling and Cell Deconvolution,"Anaconda, CRAN",++,1
+GEDIT,2019,0,0,Immune Repertoire Profiling and Cell Deconvolution,N/A,+,2
+SaVant,2017,16,5.333333333,Immune Repertoire Profiling and Cell Deconvolution,N/A,+++,2
+EPIC,2017,73,24.33333333,Immune Repertoire Profiling and Cell Deconvolution,Anaconda,++,2
+WSCUnmix,2017,3,1,Immune Repertoire Profiling and Cell Deconvolution,N/A,+++,1
+Infino,2017,0,0,Immune Repertoire Profiling and Cell Deconvolution,N/A,++,1
+MCP-counter,2016,256,64,Immune Repertoire Profiling and Cell Deconvolution,N/A,+,1
+CellCode,2015,56,11.2,Immune Repertoire Profiling and Cell Deconvolution,N/A,++,2
+PERT,2012,94,11.75,Immune Repertoire Profiling and Cell Deconvolution,N/A,+++,1
+ImReP,2018,5,2.5,Immune Repertoire Profiling and Cell Deconvolution,N/A,+++,1
+TRUST (T cell),2016,152,38,Immune Repertoire Profiling and Cell Deconvolution,N/A,+++,1
+V’DJer,2016,26,6.5,Immune Repertoire Profiling and Cell Deconvolution,Anaconda,++,1
+IgBlast-based pipeline,2016,29,7.25,Immune Repertoire Profiling and Cell Deconvolution,N/A,+++,1
+MiXCR,2015,442,88.4,Immune Repertoire Profiling and Cell Deconvolution,Anaconda,++,1
+h. Allele Specific Expression,,,,,,,
+EAGLE,2017,,,Allele Specific Expression,N/A,++,1
+ANEVA/ANEVA-DOT,2019,4,4,Allele Specific Expression,N/A,++,1
+aFC,2017,32,10.66666667,Allele Specific Expression,N/A,+++,1
+phASER,2016,31,7.75,Allele Specific Expression,N/A,+++,1
+RASQUAL,2016,103,25.75,Allele Specific Expression,N/A,+++,1
+allelecounter,2015,189,37.8,Allele Specific Expression,N/A,+++,1
+WASP,2015,199,39.8,Allele Specific Expression,Anaconda,++,1
+Mamba,2015,49,9.8,Allele Specific Expression,N/A,++,2
+MBASED,2014,92,15.33333333,Allele Specific Expression,"Anaconda, Bioconductor",++,1
+Allim,2013,33,4.714285714,Allele Specific Expression,N/A,+++,1
+AlleleSeq,2011,269,29.88888889,Allele Specific Expression,N/A,+++,2
+i. Viral Detection,,,,,,,
+ROP,2018,12,6,Viral Detection,Anaconda,++,1
+CoMPASS,2014,45,7.5,Viral Detection,Anaconda,++,1
+VirusSeq,2013,116,16.57142857,Viral Detection,N/A,+++,2
+VirusFinder,2013,107,15.28571429,Viral Detection,N/A,+++,2
+j. Fusion Detection,,,,,,,
+INTEGRATE-Vis,2017,,,Fusion Detection,N/A,+++,1
+INTEGRATE-Neo,2017,,,Fusion Detection,N/A,+++,1
+INTEGRATE,2016,,,Fusion Detection,N/A,+++,1
+TRUP,2015,44,8.8,Fusion Detection,N/A,+++,1
+PRADA,2014,126,21,Fusion Detection,Anaconda,++,1
+Pegasus,2014,46,7.666666667,Fusion Detection,N/A,+++,1
+FusionCatcher,2014,136,22.66666667,Fusion Detection,Anaconda,++,1
+FusionQ,2013,32,4.571428571,Fusion Detection,N/A,+++,2
+Barnacle,2013,13,1.857142857,Fusion Detection,N/A,+++,2
+Dissect,2012,25,3.125,Fusion Detection,N/A,+++,1
+BreakFusion,2012,59,7.375,Fusion Detection,N/A,+++,2
+EricScript,2012,90,11.25,Fusion Detection,Anaconda,++,1
+Bellerophontes,2012,38,4.75,Fusion Detection,N/A,+++,2
+GFML,2012,2,0.25,Fusion Detection,N/A,+,1
+FusionHunter,2011,91,10.11111111,Fusion Detection,N/A,+++,1
+ChimeraScan,2011,240,26.66666667,Fusion Detection,Anaconda,++,1
+TopHat-fusion,2011,594,66,Fusion Detection,N/A,+++,2
+deFuse,2011,456,50.66666667,Fusion Detection,Anaconda,++,1
+k. Small RNA detection,,,,,,,
+miRTrace,2018,,,Small RNA detection,Anaconda,+++,1
+sRNAbench,2015,,,Small RNA detection,N/A,+,2
+sRNAde,2015,,,Small RNA detection,N/A,+,2
+sRNAblast,2015,,,Small RNA detection,N/A,+,2
+miRNAconsTarget,2015,,,Small RNA detection,N/A,+,2
+sRNAjBrowser,2015,,,Small RNA detection,N/A,+,2
+sRNAjBrowserDE,2015,,,Small RNA detection,N/A,+,2
+ShortStack,2013,,,Small RNA detection,Anaconda,+++,1
+mirTools,2013,,,Small RNA detection,N/A,+,2
+UEA sRNA Workbench,2012,,,Small RNA detection,N/A,+++,1
+miRDeep2,2011,,,Small RNA detection,Anaconda,+++,1
+miRanalyzer,2011,,,Small RNA detection,N/A,+,2
+SeqBuster,2010,,,Small RNA detection,Anaconda,+,2
+DARIO,2010,,,Small RNA detection,N/A,+,2
+l. Visualization Tools,,,,,,,
+BEAVR,2020,,,Visualization Tools,Docker Hub,++,1
+coseq,2018,,,Visualization Tools,"Anaconda, Bioconductor",++,1
+ReadXplorer,2016,36,9,Visualization Tools,N/A,+++,2
+Integrated Genome Browser,2016,4,1,Visualization Tools,N/A,+++,2
+Sashimi plots,2015,87,17.4,Visualization Tools,N/A,++,2
+ASTALAVISTA,2015,7,1.4,Visualization Tools,Anaconda,++,2
+RNASeqBrowser,2015,8,1.6,Visualization Tools,N/A,+++,2
+SplicePlot,2014,12,2,Visualization Tools,N/A,+++,2
+RNASeqViewer,2014,16,2.666666667,Visualization Tools,N/A,+++,1
+PrimerSeq,2014,9,1.5,Visualization Tools,N/A,+++,1
+Epiviz,2014,53,8.833333333,Visualization Tools,"Anaconda, Bioconductor",++,1
+RNAbrowse,2014,18,3,Visualization Tools,N/A,N/A,2
+ZENBU,2014,120,20,Visualization Tools,N/A,+,2
+CummeRbund,2012,8219,1027.375,Visualization Tools,"Anaconda, Bioconductor",++,1
+Splicing Viewer,2012,23,2.875,Visualization Tools,N/A,+++,2
