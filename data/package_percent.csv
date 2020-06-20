@@ -1,18 +1,19 @@
 ﻿domain,domain_name,Anaconda,Bioconductor,CRAN,pip,Docker Hub,none,total
-d,Transcriptome Quantification and Annotation,0.315789474,0.078947368,0,0.026315789,0,0.578947368,1
-e,Differential Expression,0.333333333,0.333333333,0.060606061,0,0,0.272727273,1
-b,Read Alignment,0.545454545,0,0,0,0,0.454545455,1
-g,Immune Repertoire Profiling and Cell Deconvolution,0.227272727,0,0.045454545,0,0,0.727272727,1
-f,RNA Splicing,0.24,0.16,0,0,0,0.6,1
-j,Fusion Detection,0.277777778,0,0,0,0,0.722222222,1
-a,Data Quality Control,0.588235294,0.117647059,0,0,0,0.294117647,1
-c,Transcriptome assembly ,0.25,0,0,0,0,0.75,1
-k,Small RNA detection,0.285714286,0,0,0,0,0.714285714,1
-l,Visualization Tools ,0.222222222,0.166666667,0,0,0.055555556,0.555555556,1
-h,Allele Specific Expression ,0.166666667,0.083333333,0,0,0,0.75,1
-i,Viral Detection ,0.5,0,0,0,0,0.5,1
-,,,,,,,,
-,,,,,,,,
+e,Transcriptome quantification,0.303030303,0.090909091,0,0.03030303,0,0.575757576,1
+f,Differential expression,0.333333333,0.333333333,0.060606061,0,0,0.272727273,1
+b,Read alignment,0.545454545,0,0,0,0,0.454545455,1
+g,RNA splicing,0.24,0.16,0,0,0,0.6,1
+m,Detecting circRNA,0.052631579,0.052631579,0,0,0,0.789473684,1
+l,Fusion detection,0.277777778,0,0,0,0,0.722222222,1
+h,Cell deconvolution,0.176470588,0,0.058823529,0,0,0.764705882,1
+a,Data quality control,0.588235294,0.117647059,0,0,0,0.294117647,1
+d,Transcriptome assembly ,0.25,0,0,0,0,0.75,1
+n,Small RNA detection,0.285714286,0,0,0,0,0.714285714,1
+o,Visualization tools ,0.222222222,0.166666667,0,0,0.055555556,0.555555556,1
+j,Allele specific expression ,0.166666667,0.083333333,0,0,0,0.75,1
+i,Immune repertoire profiling,0.4,0,0,0,0,0.6,1
+c,Gene annotations,0.5,0,0,0,0,0.5,1
+k,Viral detection ,0.5,0,0,0,0,0.5,1
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
