@@ -1,292 +1,236 @@
-﻿Tool,Year Published,Notable Features,Programming language,Package manager,Required expertise,Software,Type of URL
-,,,,,,,
-,,,,,,,1. Web services designed to host source code
-,,,,,,,
-,,,,,,,2. Others (e.g personal and/or university web services)
-a. Data quality control,,,,,,,
-iSeqQC1,2020,Expression-based raw data QC tool that detects outliers,R,N/A,++,https://github.com/gkumar09/iSeqQC,1
-,,,,,,,
-qsmooth2,2018,Adaptive smooth quantile normalization,R,Bioconductor,++,http://bioconductor.org/packages/release/bioc/html/qsmooth.html,1
-FastQC3,2018,Raw data QC tool for for high throughput sequence data,Java,Anaconda ,++,https://github.com/s-andrews/fastqc/,1
-QC34,2014,Raw data QC tool detecting batch effect and cross contamination,"Perl, R",Anaconda,++,https://github.com/slzhao/QC3,1
-,,,,,,,
-kPAL5,2014,Alignment-free assessment raw data QC tool by analyzing k-mer frequencies,Python,Anaconda ,++,https://github.com/LUMC/kPAL,1
-,,,,,,,
-,,,,,,,
-HTQC6,2013,Raw data QC read assessment and filtration,C++,N/A,+++,https://sourceforge.net/projects/htqc/,1
-,,,,,,,
-Trimmomatic7,2014,Trimming of reads and removal of adapters ,Java,Anaconda,++,http://www.usadellab.org/cms/index.php?page=trimmomatic,2
-,,,,,,,
-Skewer8,2014,Adapter trimming of reads,C++,Anaconda,++,https://sourceforge.net/projects/skewer,1
-,,,,,,,
-Flexbar9,2012,Trimming of reads and adaptor removal,C++,Anaconda,++,https://github.com/seqan/flexbar,1
-QuaCRS10,2014,Post QC tool by performing meta-analyses on QC metrics across large numbers of samples.,Python,N/A,+++,https://github.com/kwkroll32/QuaCRS,1
-BlackOPs11,2013,Post QC tool that simulates experimental RNA-seq derived from the reference genome and aligns these sequences and outputs a blacklist of positions and alleles caused by mismapping,Perl,N/A,+++,https://sourceforge.net/projects/rnaseqvariantbl/,1
-RSeQC12,2012,Post QC evaluation of different aspects of RNA-seq ,"Python, C",Anaconda,++,http://rseqc.sourceforge.net/,1
-,,"experiments, such as sequence quality, GC bias, nucleotide composition bias, sequencing depth, strand specificity, coverage uniformity and read distribution over the genome structure.",,,,,
-RNA-SeQC13,2012,RNA-seq metrics for post- quality control and process optimization,Java,Anaconda,++,https://software.broadinstitute.org/cancer/cga/rna-seqc,2
-Seqbias14,2012,"Post QC tool using a graphical model to increase accuracy of de novo gene annotation, uniformity of read coverage, consistency of nucleotide frequencies and agreement with qRT-PCR",R,"Anaconda, Bioconductor",++,http://master.bioconductor.org/packages/devel/bioc/html/seqbias.html,1
-,2011,Post QC tool which plotsPost nucleotide overrepresentation and other statistics in mapped and unmapped reads in a html page ,C,N/A,+++,http://samstat.sourceforge.net,1
-,,,,,,,
-SAMStat15,,,,,,,
-Samtools16,2009,Post QC tool using generic alignment format for storing read alignments against reference sequences and to visualize the Binary/Alignment Map (BAM).,"C, Perl",Anaconda,+,https://github.com/samtools/samtools,1
- b. Read alignment,,,,,,,
-deSALT17,2019,Long transcriptomic read alignment with de Bruijn graph-based index,C ,Anaconda,++,https://github.com/ydLiu-HIT/deSALT,1
-,,,,,,,
-Magic-BLAST18,2018,Aligner for long and short reads through optimization of a spliced alignment score,C++,N/A,+++,https://ncbi.github.io/magicblast/,1
-,,,,,,,
-Minimap219,2018,Alignment using seed chain alignment procedure ,"C, Python",Anaconda,++,https://github.com/lh3/minimap2,1
-DART20,2018,Burrows-Wheeler Transform based aligner which adopts partitioning strategy to divide a read into two groups,C/C++ ,Anaconda,++,https://github.com/hsinnan75/DART,1
-MMR21,2016,"Resolves the mapping location of multi-mapping reads, optimising for locally smooth coverage.",C++,N/A,+++,https://github.com/ratschlab/mmr,1
-ContextMap 222,2015,Allows parallel mapping against several reference genomes,Java ,N/A,+++,http://www.bio.ifi.lmu.de/ContextMap,2
-HISAT23,2015,Aligning reads using an indexing scheme based on the Burrows-Wheeler transform and the Ferragina-Manzini (FM) index,C++,Anaconda,++,http://www.ccb.jhu.edu/software/hisat/index.shtml,2
-Segemehl24 ,2014,"Multi-split mapping for circular RNA, trans-splicing, and fusion events in addition to performing splice alignment","C, C++, Perl, Python, Shell (Bash)",Anaconda,++,(http://www.bioinf.uni-leipzig.de/Software/segemehl/).,2
-JAGuaR25,2014,Uses a modified GTF (Gene Transfer Format) of known splice sites to build the complete sequence from all reads mapped to the transcript.,Python,N/A,+++,https://www.bcgsc.ca/resources/software/jaguar,2
-CRAC26,2013,K-mer profiling approach to map reads,C++ ,Anaconda,++,http://crac.gforge.inria.fr/,2
-STAR27,2013,Aligns long reads against genome reference database ,C++ ,Anaconda,++,https://github.com/alexdobin/STAR,1
-,,,,,,,
-Subread28,2013,"Mapping reads to a reference genome using multi-seed strategy, called seed-and-vote","C, R","Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/Rsubread.html,1
-TopHat229,2013,"Alignment of transcriptomes in the presence of insertions, deletions and gene fusions","C++, Python",Anaconda,++,http://ccb.jhu.edu/software/tophat/index.shtml,2
-,,,,,,,
-OSA30,2012,K-mer profiling approach to map reads,C#,N/A,+++,http://www.arrayserver.com/wiki/index.php?title=OSA,2
-PASSion31,2012,Pattern growth pipeline for splice junction detection,"C++, Perl, Shell (Bash)",N/A,+++,https://trac.nbic.nl/passion/,2
-,,,,,,,
-RUM32,2011,Comparative analysis of RNA-seq alignment algorithms and the RNA-seq unified mapper,"Perl, Python ",N/A,+++,http://www.cbil.upenn.edu/RUM/,2
-SOAPSplice33,2011,Ab initio detection of splice junctions ,Perl,Anaconda,++,http://soap.genomics.org.cn/soapsplice.html,2
-MapSplice34,2010,De novo detection of splice junctions ,C++,Anaconda,++,https://github.com/LiuBioinfo/MapSplice,1
-SpliceMap35,2010,De novo detection of splice junctions and RNA-seq alignment ,C++ ,Anaconda,++,http://web.stanford.edu/group/wonglab/SpliceMap/,2
-Supersplat36,2010,De novo detection of splice junctions ,C++,N/A,+++,http://mocklerlab.org/tools/1/manual,2
-,,,,,,,
-HMMSplicer37,2010,Detection of splice junctions of short sequence reads,Python ,N/A,+++,http://derisilab.ucsf.edu/software/hmmsplicer,2
-QPALMA38,2008,Spliced alignments of short sequence reads.,"C++, Python",N/A,+++,http://www.raetschlab.org/suppl/qpalma,2
-,,,,,,,
- c. Gene annotations,,,,,,,
-SQANTI39,2018,Analyses quality of long reads transcriptomes and removes artefacts.,Python,Anaconda,++,https://github.com/ConesaLab/SQANTI,1
-Annocript40,2015,Databases are downloaded to annotate protein coding transcripts with the prediction of putative long non-coding RNAs in whole transcriptomes.,"Perl, Python, R",N/A,+++,https://github.com/frankMusacchia/Annocript,1
-,,,,,,,
-CIRI41,2015,De novo circular RNA identification,Perl,N/A,+++,https://sourceforge.net/projects/ciri/,1
-TSSAR42,2014,Automated de novo TSS annotation from differential RNA-seq data,"Java, Perl, R",Anaconda,++,http://rna.tbi.univie.ac.at/TSSAR,2
- d. Transcriptome assembly ,,,,,,,
-FLAIR43,2020,Full-length alternative isoform analysis of RNA ,Python,Anaconda,++,https://github.com/BrooksLabUCSC/FLAIR,1
-Scallop44,2017,Splice-graph-decomposition algorithm which optimizes two competing objectives while satisfying all phasing constraints posed by reads spanning multiple vertices,C++,Anaconda,+++,https://github.com/Kingsford-Group/scallop,1
-CLASS245,2016,Splice variant annotation ,"C++, Perl, Shell",Anaconda,++,https://sourceforge.net/projects/splicebox/,1
-StringTie46,2015,"Applies a network flow algorithm originally developed in optimization theory, together with optional de novo assembly, to assemble transcripts",C++,N/A,+++,http://ccb.jhu.edu/software/stringtie,2
-Bridger47,2015,"De novo transcript assembler using a mathematical model, called the minimum path cover","C++, Perl",N/A,+++,https://sourceforge.net/projects/rnaseqassembly/files/?source=navbar,1
-Bayesembler48,2014,Reference genome guided transcriptome assembly built on a Bayesian model ,C++,N/A,+++,https://github.com/bioinformatics-centre/bayesembler.,1
-,,,,,,,
-SEECER49,2013,De novo transcriptome assembly using hidden Markov Model (HMM) based method,C++,N/A,+++,http://sb.cs.cmu.edu/seecer/,2
-BRANCH50,2013,De novo transcriptome assemblies by using genomic information that can be partial or complete genome sequences from the same or a related organism.,C++,N/A,+++,https://github.com/baoe/BRANCH,1
-EBARDenovo51,2013,De novo transcriptome assembly uses an efficient chimera-detection function ,C#,N/A,+++,https://sourceforge.net/projects/ebardenovo/,1
-Oases52,2012,De novo transcriptome assembly using k-mer profiling and building a de Brujin graph ,C,N/A,+++,https://github.com/dzerbino/oases/tree/master,1
-Cufflinks53,2012,"Ab initio transcript assembly, estimates their abundances, and tests for differential expression",C++,N/A,+++,https://github.com/cole-trapnell-lab/cufflinks,1
-IsoInfer54,2011,Infer isoforms from short reads,C/C++,N/A,+++,http://www.cs.ucr.edu/~jianxing/IsoInfer.html,2
-IsoLasso55,2011,Reference genome guided using LASSO regression approach,C++,N/A,+++,http://alumni.cs.ucr.edu/~liw/isolasso.html,2
-Trinity56,2011,De novo transcriptome assembly,"C++, Java, Perl, R, Shell (Bash) ",Anaconda,++,https://github.com/trinityrnaseq/trinityrnaseq/wiki,1
-Trans-ABySS57,2010,De novo short-read transcriptome assembly and can also be used for fusion detection,Python,N/A,+++,https://github.com/bcgsc/transabyss,1
-Scripture58,2010,Ab initio reconstruction of transcriptomes of pluripotent and lineage committed cells,Java,N/A,+++,www.broadinstitute.org/software/Scripture/,2
- e. Transcriptome quantification,,,,,,,
-TALON59,2019,Long-read transcriptome discovery and quantification,Python,N/A,+++,https://github.com/dewyman/TALON,1
-Salmon60,2017,"Composed of: lightweight-mapping model, an online phase that estimates initial expression levels and model parameters, and an offline phase that refines expression estimates models, and mesures sequence-specific, fragment GC, and positional biases",C++,Anaconda,++,https://github.com/COMBINE-lab/Salmon,1
-Kallisto61,2016,K-mer based pseudoalignment for allligment free transcript and gene expression quantification ,"C, C++, Perl ",Anaconda,++,https://github.com/pachterlab/kallisto,1
-Wub62,2016,Sequence and error simulation tool to calculate read and genome assembly accuracy.,Python,Anaconda,++,https://github.com/nanoporetech/wub,1
-,,,,,,,
-Rcount63,2015,GUI based tool used for quantification using counts per feature,Web based tool,N/A,+,https://github.com/MWSchmid/Rcount,1
-Ht-seq64,2015,Calculates gene counts by counting number of reads overlapping genes,Python,pip,++,https://htseq.readthedocs.io/en/release_0.11.1/overview.html,2
-EMSAR65,2015,Estimation by mappability-based segmentation and reclustering using a joint Poisson model,C,N/A,+++,https://github.com/parklab/emsar,1
-Maxcounts66,2014,Quantify the expression assigned to an exon as the maximum of its per-base counts ,C++,N/A,+++,http://sysbiobig.dei.unipd.it/?q=Software#MAXCOUNTS,2
-FIXSEQ67,2014,A nonparametric and universal method for processing per-base sequencing read count data.,R,N/A,++,https://bitbucket.org/thashim/fixseq/src/master/,1
-Sailfish68,2014,EM based quantification using statistical coupling between k-mers.,"C, C++ ",Anaconda,++,https://github.com/kingsfordgroup/sailfish,1
-Casper69,2014,Bayesian modeling framework to quantify alternative splicing.,R,"Anaconda, Bioconductor",++,http://www.bioconductor.org/packages/release/bioc/html/casper.html,1
-MaLTA70,2014,Simultaneous transcriptome assembly and quantification from Ion Torrent RNA-Seq data.,C++,N/A,+++,http://alan.cs.gsu.edu/NGS/?q=malta,2
-Featurecounts71,2014,Read summarization program for counting reads generated.,R,N/A,++ ,http://subread.sourceforge.net/,1
-MITIE72,2013,Transcript reconstruction and assembly from RNA-Seq data using mixed integer optimisation.,"MATLAB, C++",N/A,+++,https://github.com/ratschlab/MiTie,1
-iReckon73 ,2013,EM-based method to accurately estimate the abundances of known and novel isoforms.,Java,N/A,+++,http://compbio.cs.toronto.edu/ireckon/,2
-eXpress74,2013,Online EM based algorithm for quantification which considers one read at a time.,"C++, Shell (Bash)",Anaconda,++,https://pachterlab.github.io/eXpress/manual.html,1
-BitSeq75,2012,Bayesian transcript expression quantification and differential expression.,"C++, R","Anaconda,Bioconductor ",++,http://bitseq.github.io/,1
-IQSeq76,2012,Integrated isoform quantification analysis.,C++,N/A,+++,http://archive.gersteinlab.org/proj/rnaseq/IQSeq/,2
-,,,,,,,
-CEM77,2012,Statistical framework for both transcriptome assembly and isoform expression level estimation.,Python,N/A,+++,http://alumni.cs.ucr.edu/~liw/cem.html,2
-SAMMate78,2011,Analysis of differential gene and isoform expression.,Java,N/A,+++,http://sammate.sourceforge.net/,1
-Isoformex79,2011,Estimation method to estimate the expression levels of transcript isoforms.,N/A,N/A,N/A,http://bioinformatics.wistar.upenn.edu/isoformex,2
-IsoEM80,2011,EM based method for inference of isoform and gene-specific expression levels ,Java,N/A,+++,http://dna.engr.uconn.edu/software/IsoEM/.,2
-RSEM81,2011,Ab initio EM based method for inference of isoform and gene-specific expression levels ,"C++, Perl, Python, R",Anaconda,++,https://github.com/deweylab/RSEM,1
-EDASeq82,2011,"Within-lane GC-content normalization, between-sample normalization, visualization.",R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/devel/bioc/html/EDASeq.html,1
-,,,,,,,
-MMSEQ83,2011,Haplotype and isoform specific expression estimation,"C++, R, Ruby, Shell (Bash) ",N/A,++,https://github.com/eturro/mmseq,1
-MISO84,2010,Statistical model that estimates expression of alternatively spliced exons and isoforms,"C, Python ",N/A,+++,https://miso.readthedocs.io/en/fastmiso/#latest-version-from-github,2
-SOLAS85,2010,Prediction of alternative isoforms from exon expression levels ,R,N/A,++,http://cmb.molgen.mpg.de/2ndGenerationSequencing/Solas/,2
-Rseq86,2009,Statistical inferences for isoform expression,C++,N/A,+++,http://www-personal.umich.edu/~jianghui/rseq/#download,2
-,,,,,,,
-rQuant87,2009,Estimating density biases and considering the read coverages at each nucleotide independently using quadratic programming ,"Matlab, Shell (Bash), Javascript",N/A,+++,https://galaxy.inf.ethz.ch/?tool_id=rquantweb&version=2.2&__identifer=3iuqb8nb3wf,2
-ERANGE88 ,2008,Mapping and quantifying mammalian transcripts ,Python,N/A,+++,http://woldlab.caltech.edu/rnaseq,2
- f. Differential expression ,,,,,,,
-Swish89,2019,Non-parametric model for differential expression analysis using inferential replicate counts,R,Bioconductor,++,https://bioconductor.org/packages/release/bioc/html/fishpond.html,1
-Yanagi90,2019,Transcriptome segment analysis,Python/C++,N/A,+++,https://github.com/HCBravoLab/yanagi,1
-Whippet91,2018,Quantification of transcriptome structure and gene expression analysis using EM. ,Julia,N/A,+++,https://github.com/timbitz/Whippet.jl,1
-ReQTL92,2018,Identifies correlations between SNVs and gene expression from RNA-seq data,R,N/A,++,https://github.com/HorvathLab/ReQTL,1
-vast-tools93,2017,Profiling and comparing alternative splicing events in RNA-Seq data and for downstream analyses of alternative splicing.,"R, Perl",N/A,+++,https://github.com/vastgroup/vast-tools,1
-,,,,,,,
-Ballgown94,2015,Linear model–based differential expression analyses,R,"Anaconda, Bioconductor",++,https://github.com/alyssafrazee/ballgown,1
-Limma/Voom95,2014,Linear model-based differential expression and differential splicing analyses,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/limma.html,1
-rMATS96,2014,Detect major differential alternative splicing types in RNA-seq data with replicates.,"Python, C++",Anaconda,++,http://rnaseq-mats.sourceforge.net/rmats3.2.5/,1
-DESeq297,2014,"Differential analysis of count data, using shrinkage estimation for dispersions and fold changes",R,"Bioconductor, CRAN",++,https://bioconductor.org/packages/release/bioc/html/DESeq2.html,1
-Corset98,2014,Differential gene expression analysis for de novo assembled transcriptomes,C++,Anaconda,++,https://github.com/Oshlack/Corset/wiki,1
-,,,,,,,
-BADGE99,2014,Bayesian model for accurate abundance quantification and differential analysis,Matlab,N/A,+++,http://www.cbil.ece.vt.edu/software.htm,2
-,,,,,,,
-compcodeR100,2014,Benchmarking of differential expression analysis methods,R,"Anaconda, Bioconductor",++, https://www.bioconductor.org/packages/compcodeR/,1
-metaRNASeq101,2014,Differential meta-analyses of RNA-seq data ,R,"Anaconda, CRAN",++,http://cran.r-project.org/web/packages/metaRNASeq,1
-Characteristic Direction102,2014,Geometrical multivariate approach to identify differentially expressed genes ,"R, Python, MATLAB",N/A,++,http://www.maayanlab.net/CD,2
-HTSFilter103,2013,Filter-replicated high-throughput transcriptome sequencing data,R,"Anaconda, Bioconductor",++,http://www.bioconductor.org/packages/release/bioc/html/HTSFilter.html,1
-NPEBSeq104,2013,Nonparametric empirical bayesian-based procedure for differential expression analysis,R,N/A,++,http://bioinformatics.wistar.upenn.edu/NPEBseq,2
-,,,,,,,
-EBSeq105,2013,Identifying differentially expressed isoforms.,R,"Anaconda, Bioconductor ",++,http://bioconductor.org/packages/release/bioc/html/EBSeq.html,1
-sSeq106,2013,Shrinkage estimation of dispersion in Negative Binomial models ,R,"Anaconda, Bioconductor",++,http://bioconductor.org/packages/release/bioc/html/sSeq.html,1
-Cuffdiff2107,2013,Differential analysis at transcript resolution,"C++, Python",N/A,+++,http://cole-trapnell-lab.github.io/cufflinks/cuffdiff/,1
-SAMseq108,2013,Nonparametric method with resampling to account for the different sequencing depths,R,CRAN,++,https://rdrr.io/cran/samr/man/SAMseq.html,1
-DSGseq 109,2013,NB-statistic method that can detect differentially spliced genes between two groups of samples without using a prior knowledge on the annotation of alternative splicing.,R,N/A,++,http://bioinfo.au.tsinghua.edu.cn/software/DSGseq/,2
-,,,,,,,
-NOISeq110,2011,Uses a non-parametric approach for differential expression analysis and can work in absence of replicates,R,Bioconductor,++,https://bioconductor.org/packages/release/bioc/html/NOISeq.html,1
-EdgeR111,2010,Examining differential expression of replicated count data and differential exon usage,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/edgeR.html,1
-DEGseq112,2010,Identify differentially expressed genes or isoforms for RNA-seq data from different samples.,R,Bioconductor,++,http://bioconductor.org/packages/release/bioc/html/DEGseq.html,1
-,,,,,,,
-g. RNA splicing,,,,,,,
-LeafCutter113,2018,Detects differential splicing and maps quantitative trait loci (sQTLs).,R,Anaconda,++,https://github.com/davidaknowles/leafcutter.git,1
-MAJIQ-SPEL114,2018,"Visualization, interpretation, and experimental validation of both classical and complex splicing variation and automated RT-PCR primer design.","C++, Python",N/A,+++,https://galaxy.biociphers.org/galaxy/root?tool_id=majiq_spel ,2
- MAJIQ115,2016,Web-tool that takes as input local splicing variations (LSVs) quantified from RNA-seq data and provides users with a visualization package (VOILA) and quantification of gene isoforms.,"C++, Python",N/A,+++,https://majiq.biociphers.org/commercial.php,2
-SplAdder116,2016,"Identification, quantification, and testing of alternative splicing events",Python,PyPI,+++,http://github.com/ratschlab/spladder,1
-SplicePie117 ,2015,"Detection of alternative, non-sequential and recursive splicing","Perl, R",N/A,+++,https://github.com/pulyakhina/splicing_analysis_pipeline,1
-SUPPA118,2015,Alternative splicing analysis ,"Python, R",Anaconda,++,https://github.com/comprna/SUPPA,1
-SNPlice119,2015,Identifying variants that modulate Intron retention,Python,N/A,+++,https://code.google.com/p/snplice/,1
-,2014,Detecting differential isoform usage,R,N/A,++,http://www.niehs.nih.gov/research/resources/software/biostatistics/iuta/index.cfm.,1
-IUTA120,,,,,,,
-SigFuge121,2014,Identifying genomic loci exhibiting differential transcription patterns,R,"Anaconda, Bioconductor",++,http://bioconductor.org/packages/release/bioc/html/SigFuge.html,1
-FineSplice122,2014,Splice junction detection and quantification,Python,N/A,+++,https://sourceforge.net/p/finesplice/,1
-PennSeq123,2014,Statistical method that allows each isoform to have its own non-uniform read distribution,Perl,N/A,+++,http://sourceforge.net/projects/pennseq,1
-FlipFlop124,2014,RNA isoform identification and quantification with network flows,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/flipflop.html,1
-GESS125,2014,Graph-based exon-skipping scanner for de novo detection of skipping event sites,N/A,N/A,N/A,http://jinlab.net/GESS_Web/,2
-spliceR126,2013,Classification of alternative splicing and prediction of coding potential,R,"Anaconda, Bioconductor",++,http://www.bioconductor.org/packages/2.13/bioc/html/spliceR.html,1
-RNASeq-MATS127,2013,Detects and analyzes differential alternative splicing events ,"C, Python",N/A,+++,http://rnaseq-mats.sourceforge.net/,1
-SplicingCompass128,2013,Differential splicing detection ,R,N/A,++,http://www.ichip.de/softwa,2
-DiffSplice129 ,2013,Genome-wide detection of differential splicing,C++,N/A,+++,http://www.netlab.uky.edu/p/bioinfo/DiffSplice,2
-DEXSeq130,2012,Statistical method to test for differential exon usage.,R,"Anaconda, Bioconductor ",++,https://bioconductor.org/packages/release/bioc/html/DEXSeq.html,1
-SpliceSeq131,2012,Identifies differential splicing events between test and control groups.,Java,N/A,+++,http://bioinformatics.mdanderson.org/main/SpliceSeq:Overview.,2
-JuncBASE132,2011,"Identification and quantification of alternative splicing, including unannotated splicing",Python,N/A,+++,https://github.com/anbrooks/juncBASE,1
-ALEXA-seq133,2010,Alternative expression analysis.,"Perl, R, Shell (Bash)",N/A,+++,http://www.alexaplatform.org/alexa_seq/.,1
-,,,,,,,
-h. Cell deconvolution ,,,,,,,
-TIMER2.0134,2020,Web server for comprehensive analysis of Tumor-Infiltrating Immune Cells.,Web-tool,N/A,+,https://github.com/taiwenli/TIMER,1
-,,,"R, Javascript",,,,
-CIBERSORTx135,2019,Impute gene expression profiles and provide an ,Web-tool,N/A,+,https://cibersortx.stanford.edu/,2
-,,estimation of the abundances of member cell types in a mixed cell population.,"Java, R",,,,
-quanTIseq136,2019,Quantify the fractions of ten immune cell types from bulk RNA-sequencing data.,"R, Shell (Bash)",Docker,+,https://icbi.i-med.ac.at/quantiseq,2
-Immunedeconv137,2019,Benchmarking of transcriptome-based cell-type quantification methods for immuno-oncology,R ,Anaconda,++,https://github.com/icbi-lab/immunedeconv,1
-Linseed138,2019,Deconvolution of cellular mixtures based on linearity of transcriptional signatures.,"C++, R",N/A,++,https://github.com/ctlab/LinSeed,1
-,,,,,,,
-deconvSEQ139,2019,Deconvolution of cell mixture distribution based on a generalized linear model.,R,N/A,++,https://github.com/rosedu1/deconvSeq,1
-CDSeq140,2019,Simultaneously estimate both cell-type proportions and cell-type-specific expression profiles.,"MATLAB, R ",N/A,++,https://github.com/kkang7/CDSeq_R_Package,1
-Dtangle141,2019,"Estimates cell type proportions using publicly available, often cross-platform, reference data.",R ,"Anaconda,CRAN ",++,https://github.com/gjhunt/dtangle,1
-GEDIT142,2019,Estimate cell type abundances.,Web based tool,N/A,+,http://webtools.mcdb.ucla.edu/,2
-,,,"Python, R",,,,
-SaVant143,2017,Web based tool for sample level visualization of molecular signatures in gene expression profiles.,"Javascript, R",N/A,+++,http://newpathways.mcdb.ucla.edu/savant,2
-EPIC144 ,2017,Simultaneously estimates the fraction of cancer and immune cell types.,R ,N/A,++,http://epic.gfellerlab.org/,2
-WSCUnmix145 ,2017,Automated deconvolution of structured mixtures.,MATLAB,N/A,+++,https://github.com/tedroman/WSCUnmix,1
-,,,,,,,
-Infino146,2017,Deconvolves bulk RNA-seq into cell type abundances and captures gene expression variability in a Bayesian model to measure deconvolution uncertainty.,"R, Python",Docker Hub,++,https://github.com/hammerlab/infino,1
-MCP-counter147,2016,Estimating the population abundance of tissue-infiltrating immune and stromal cell populations.,R,N/A,+,https://github.com/ebecht/MCPcounter,1
-CellCode148 ,2015,Latent variable approach to differential expression analysis for heterogeneous cell populations.,R,N/A,++,http://www.pitt.edu/~mchikina/CellCODE/,2
-,,,,,,,
-,,,,,,,
-PERT149,2012,Probabilistic expression deconvolution method.,MATLAB,N/A,+++,https://github.com/gquon/PERT,1
-i. Immune repertoire profiling,,,,,,,
-ImReP150,2018,Profiling immunoglobulin repertoires across multiple human tissues.,Python,N/A,+++,https://github.com/mandricigor/imrep/wiki,1
-,,,,,,,
-TRUST (T cell)151,2016,Landscape of tumor-infiltrating T cell repertoire of human cancers.,Perl,N/A,+++,https://github.com/liulab-dfci/TRUST4,1
-,,,,,,,
-V’DJer 152,2016,Assembly-based inference of B-cell receptor repertoires from short reads with V’DJer.,"C, C++",Anaconda,++,https://github.com/mozack/vdjer,1
-,,,,,,,
-IgBlast-based pipeline153,2016,Statistical inference of a convergent antibody repertoire response.,C++,N/A,+++,https://www.ncbi.nlm.nih.gov/igblast/,1
-,,,,,,,
-MiXCR154,2015,Processes big immunome data from raw sequences to quantitated clonotypes.,Java,Anaconda,++,https://github.com/milaboratory/mixcr,1
-,,,,,,,
-j. Allele specific expression ,,,,,,,
-EAGLE155,2017,Bayesian model for identifying GxE interactions based on associations between environmental variables and allele-specific expression. ,"C++, R",N/A,++,https://github.com/davidaknowles/eagle,1
-ANEVA-DOT/ANEVA156,2019,Identify ASE outlier genes / Quantify genetic variation in gene dosage from ASE data.,R,N/A,++,https://github.com/PejLab/ANEVA-DOT,1
-aFC157,2017,Quantifying the regulatory effect size of cis-acting genetic variation,Python,N/A,+++,https://github.com/secastel/aFC,1
-,,,,,,,
-phASER158,2016,Uses readback phasing to produce haplotype level ASE data (as opposed to SNP level),Python,N/A,+++,https://github.com/secastel/phaser,1
-RASQUAL159,2016,Maps QTLs for sequenced based cellular traits by combining population and allele-specific signals.,"C, R",N/A,+++,https://github.com/natsuhiko/rasqual,1
-allelecounter160,2015,Generate ASE data from RNAseq data and a genotype file.,Python,N/A,+++,https://github.com/secastel/allelecounter,1
-WASP161,2015,Unbiased allele-specific read mapping and discovery of molecular QTLs,C,Anaconda,++,https://github.com/bmvdgeijn/WASP/,1
-,,,Python,,,,
-Mamba162 ,2015,Compares different patterns of ASE across tissues,R,N/A,++,http://www.well.ox.ac.uk/~rivas/mamba/.,2
-,2014,Allele-specific expression detection in cancer tissues and cell lines,R,"Anaconda, Bioconductor",++,https://bioconductor.org/packages/release/bioc/html/MBASED.html,1
-MBASED 163,,,,,,,
-Allim164 ,2013,Estimates allele-specific gene expression.,"Python, R",N/A,+++,https://sourceforge.net/projects/allim/,1
-,,,,,,,
-AlleleSeq165,2011,Identifies allele-specific events in mapped reads between maternal and paternal alleles.,"Python, Shell",N/A,+++,http://alleleseq.gersteinlab.org/,2
-k. Viral detection ,,,,,,,
-ROP166 ,2018,Dumpster diving in RNA-sequencing to find the source of 1 trillion reads across diverse adult human tissues,"Python, Shell (Bash) ",Anaconda,++,https://github.com/smangul1/rop,1
-RNA CoMPASS167,2014,Simultaneous analysis of transcriptomes and metatranscriptomes from diverse biological specimens.," Perl, Shell, Java",N/A,++,http://rnacompass.sourceforge.net/,1
-VirusSeq168,2013,Identify viruses and their integration sites using next-generation sequencing of human cancer tissues,"Perl, Shell (Bash)",N/A,+++,http://odin.mdacc.tmc.edu/∼xsu1/VirusSeq.html,2
-VirusFinder169,2013,Detection of Viruses and Their Integration Sites in Host Genomes through Next Generation Sequencing Data,Perl,N/A,+++,http://bioinfo.mc.vanderbilt.edu/VirusFinder/,2
-l. Fusion detection ,,,,,,,
-INTEGRATE-Vis170,2017,Generates plots focused on annotating each gene fusion at the transcript-,Python,N/A,+++,https://github.com/ChrisMaherLab/INTEGRATE-Vis,1
-,,and protein-level and assessing expression across samples.,,,,,
-,,,,,,,
-INTEGRATE-Neo171,2017,"Gene fusion neoantigen discovery tool, which uses RNA-Seq reads and is capable of","Python, C++",N/A,+++,https://github.com/ChrisMaherLab/INTEGRATE-Neo,1
-,,reporting tumor-specific peptides recognizable by immune molecules.,,,,,
-INTEGRATE172,2016,Capable of integrating aligned RNA-seq and WGS reads and characterizes the quality of predictions. ,C++,N/A,+++,https://sourceforge.net/projects/integrate-fusion/,1
-TRUP173 ,2015,Combines split-read and read-pair analysis with de novo regional assembly for the identification of chimeric transcripts in cancer specimens.,"C++, Perl, R",N/A,+++,https://github.com/ruping/TRUP,1
-PRADA174 ,2014,"Detect gene fusions but also performs alignments, transcriptome quantification; mainly integrated genome/transcriptome read mapping.",Python,Anaconda,++,http://sourceforge.net/projects/prada/,1
-,,,,,,,
-Pegasus175,2014,Annotation and prediction of biologically functional gene fusion candidates.,"Java, Perl, Python, Shell (Bash) ",N/A,+++,https://github.com/RabadanLab/Pegasus,1
-FusionCatcher176,2014,Finding somatic fusion genes,Python,Anaconda,++,https://sourceforge.net/projects/fusioncatcher/,1
-FusionQ177,2013,Gene fusion detection and quantification from paired-end RNA-seq,"C++, Perl, R",N/A,+++,http://www.wakehealth.edu/CTSB/Software/Software.htm,2
-,,,,,,,
-Barnacle178 ,2013,Detecting and characterizing tandem duplications and fusions in de novo transcriptome assemblies,"Python, Perl",N/A,+++,http://www.bcgsc.ca/platform/bioinfo/software/barnacle,2
-,,,,,,,
-Dissect179 ,2012,Detection and characterization of structural alterations in transcribed sequences,C,N/A,+++,http://dissect-trans.sourceforge.net,1
-BreakFusion180,2012,Targeted assembly-based identification of gene fusions,"C++, Perl ",N/A,+++,https://bioinformatics.mdanderson.org/public-software/breakfusion/,2
-EricScript181,2012,Identification of gene fusion products in paired-end RNA-seq data.,"Perl, R, Shell (Bash)",Anaconda,++,http://ericscript.sourceforge.net,1
-Bellerophontes182,2012,Chimeric transcripts discovery based on fusion model.,"Java, Perl, Shell (Bash) ",N/A,+++,http://eda.polito.it/bellerophontes/,2
-,,,,,,,
-GFML183 ,2012,Standard format for organizing and representing the significant features of gene fusion data.,XML,N/A,+,http://code.google.com/p/gfml-prototype/,1
-FusionHunter184,2011,Identifies fusion transcripts from transcriptional analysis.,C++,N/A,+++,https://github.com/ma-compbio/FusionHunter,1
-,,,,,,,
-ChimeraScan185,2011,Identifying chimeric transcription.,Python,Anaconda,++,https://code.google.com/archive/p/chimerascan/downloads,1
-,,,,,,,
-TopHat-fusion186,2011,Discovery of novel fusion transcripts.,"C++, Python",N/A,+++,http://ccb.jhu.edu/software/tophat/fusion_index.shtml,2
-deFuse187,2011,Fusion discovery in tumor RNA-seq data.,"C++, Perl, R",Anaconda,++,https://github.com/amcpherson/defuse/blob/master/README.md,1
-m. Small RNA detection,,,,,,, 
-miRTrace188,2018,"Quality control of miRNA-seq data, identifies cross-species contamination.",Java,Anaconda ,+++,https://github.com/friedlanderlab/mirtrace ,1
-sRNAbench189,2015,"Expression profiling of small RNAs, prediction of novel microRNAs, analysis of isomiRs, genome mapping and read length statistics.",Web based tool,N/A,+,https://bioinfo5.ugr.es/srnatoolbox/srnabench/,2
-sRNAde189,2015,Detection of differentially expressed small RNAs based on  three programs.,Web based tool ,N/A,+,https://bioinfo5.ugr.es/srnatoolbox/srnade/,2
-sRNAblast189,2015,Aimed to determine the origin of unmapped or unassigned reads by means of a blast search against several remote databases.,Web based tool,N/A,+,https://bioinfo5.ugr.es/srnatoolbox/srnablast/,2
-miRNAconsTarget189,2015,Consensus target prediction on user provided input data.,Web based tool ,N/A,+,https://bioinfo5.ugr.es/srnatoolbox/amirconstarget/,2
-sRNAjBrowser189,2015,Visualization of sRNA expression data in a genome context.,Web based tool ,N/A,+,https://bioinfo5.ugr.es/srnatoolbox/srnajbrowser/,2
-sRNAjBrowserDE189,2015,Visualization of differential expression as a function of read length in a genome context. ,Web based tool ,N/A,+,https://bioinfo5.ugr.es/srnatoolbox/srnajbrowserde/,2
-ShortStack190,2013,Analyzes reference-aligned sRNA-seq data and performs. comprehensive de novo annotation and quantification of the inferred sRNA genes.,Perl,Anaconda,+++,https://github.com/MikeAxtell/ShortStack,1
-mirTools 2.0191,2013,"Detect, identify and profile various types, functional annotation and differentially expressed sRNAs.",Web based tool ,N/A,+,http://www.wzgenomics.cn/mr2_dev/,2
-UEA sRNA Workbench192,2012,Complete analysis of single or multiple-sample small RNA datasets.,"Web based tool, C++, Java",N/A,+++,https://sourceforge.net/projects/srnaworkbench/,1
-miRDeep2193,2011,"Discovers known and novel miRNAs, quantifies miRNA expression.",Perl,Anaconda,+++,https://github.com/rajewsky-lab/mirdeep2,1
-miRanalyzer194,2011,Detection of known and prediction of new microRNAs in high-throughput sequencing experiments.,Web based tool,N/A,+,http://bioinfo2.ugr.es/miRanalyzer/miRanalyzer.php,2
-SeqBuster195,2010,Provides an automatized pre-analysis for sequence annotation for analysing small RNA data from Illumina sequencing.,Web based tool,Anaconda,+,http://estivill_lab.crg.es/seqbuster,2
-DARIO196,2010,"Allows to study short read data  and provides a wide range of analysis features, including quality control, read normalization, and quantification.",Web based tool ,N/A,+,http://dario.bioinf.uni-leipzig.de/index.py,2
-n. Visualization tools ,,,,,,,
-BEAVR197,2020,"Facilitates interactive analysis and exploration of RNA-seq data, allowing statistical testing and visualization of the table of differentially expressed genes obtained. ",R,Docker Hub,++,https://github.com/developerpiru/BEAVR,1
-coseq198,2018,Co-expression analysis of sequencing data,R,"Anaconda, Bioconductor ",++,https://bioconductor.org/packages/release/bioc/html/coseq.html,1
-ReadXplorer199,2016,Read mapping analysis and visualization ,Java,N/A,+++,https://www.uni-giessen.de/fbz/fb08/Inst/bioinformatik/software/ReadXplorer,2
-Integrated Genome Browser200,2016,An interactive tool for visually analyzing tiling array data and enables quantification of alternative splicing ,Java,N/A,+++,http://www.bioviz.org/,2
-Sashimi plots201 ,2015,Quantitative visualization comparison of exon usage,Python,N/A,++,http://miso.readthedocs.org/en/fastmiso/sashimi.html,2
-ASTALAVISTA202 ,2015,Reports all alternative splicing events reflected by transcript annotations,Java,Anaconda,++,http://astalavista.sammeth.net/,2
-RNASeqBrowser203,2015,Incorporates and extends the functionality of the UCSC genome browser,Java,N/A,+++,http://www.australianprostatecentre.org/research/software/rnaseqbrowser,2
-SplicePlot204,2014,Visualizing splicing quantitative trait loci,Python,N/A,+++,http://montgomerylab.stanford.edu/spliceplot/index.html,2
-RNASeqViewer205,2014,Compare gene expression and alternative splicing ,Python ,N/A,+++,https://sourceforge.net/projects/rnaseqbrowser/,1
-PrimerSeq206 ,2014,Systematic design and visualization of RT-PCR primers using RNA seq data,"Java, C++, Python",N/A,+++,http://primerseq.sourceforge.net/,1
-Epiviz207,2014,Combining algorithmic-statistical analysis and interactive visualization,R,"Anaconda, Bioconductor",++,https://epiviz.github.io/,1
-RNAbrowse208 ,2014,RNA-seq De Novo Assembly Results Browser,N/A,N/A,N/A,http://bioinfo.genotoul.fr/RNAbrowse,2
-ZENBU209,2014,Interactive visualization and analysis of large-scale sequencing datasets,"C++, Javascript ",N/A,+,https://fantom.gsc.riken.jp/zenbu/,2
-CummeRbund53,2012,Navigate through data produced from a Cuffdiff RNA-seq differential expression analysis,R,"Anaconda, Bioconductor",++,http://bioconductor.org/packages/devel/bioc/html/cummeRbund.html,1
-Splicing Viewer210,2012,Visualization of splice junctions and alternative splicing,Java,N/A,+++,http://bioinformatics.zj.cn/splicingviewer.,2
-need to ask aaron if this popular (should it be 1 or 2),,,,,,,
+﻿Tool,year_pub,num_citations,citation_per_year,category,package_manager,required_expertise,type_of_URL
+iSeqQC,2020,0,0,Data quality control,No package manager,Command-line tools,1
+qsmooth2,2018,29,14.5,Data quality control,Package manager available,Command-line tools,1
+FastQC,2018,75,37.5,Data quality control,Package manager available,Command-line tools,1
+QC3,2014,64,10.66666667,Data quality control,Package manager available,Command-line tools,1
+kPAL,2014,18,3,Data quality control,Package manager available,Command-line tools,1
+HTQC,2013,108,15.42857143,Data quality control,No package manager,Command-line tools,1
+Trimmomatic,2014,15413,2568.833333,Data quality control,Package manager available,Command-line tools,2
+Skewer,2014,458,76.33333333,Data quality control,Package manager available,Command-line tools,1
+Flaxbar,2012,385,48.125,Data quality control,Package manager available,Command-line tools,1
+QuaCRS,2014,30,5,Data quality control,No package manager,Command-line tools,1
+BlackOPs,2013,19,2.714285714,Data quality control,No package manager,Command-line tools,1
+RSeQC,2012,843,105.375,Data quality control,Package manager available,Command-line tools,1
+RNA-SeQC,2012,462,57.75,Data quality control,Package manager available,Command-line tools,2
+Seqbias,2012,34,4.25,Data quality control,Package manager available,Command-line tools,1
+SAMStat,2011,137,15.22222222,Data quality control,No package manager,Command-line tools,1
+Samtools,2009,24339,2212.636364,Data quality control,Package manager available,Web-based tools,1
+deSALT,2019,0,0,Read alignment,Package manager available,Command-line tools,1
+Magic-BLAST,2018,13,6.5,Read alignment,No package manager,Command-line tools,1
+Minimap2,2018,810,405,Read alignment,Package manager available,Command-line tools,1
+DART,2018,8,4,Read alignment,Package manager available,Command-line tools,1
+MMR,2016,33,8.25,Read alignment,No package manager,Command-line tools,1
+ContextMap2,2015,35,7,Read alignment,No package manager,Command-line tools,2
+HISAT,2015,3986,797.2,Read alignment,Package manager available,Command-line tools,2
+Segemehl,2014,166,27.66666667,Read alignment,Package manager available,Command-line tools,2
+JAGuaR,2014,31,5.166666667,Read alignment,No package manager,Command-line tools,2
+CRAC,2013,72,10.28571429,Read alignment,Package manager available,Command-line tools,2
+STAR,2013,10884,1554.857143,Read alignment,Package manager available,Command-line tools,1
+Subread,2013,1215,173.5714286,Read alignment,Package manager available,Command-line tools,1
+TopHat2,2013,8374,1196.285714,Read alignment,Package manager available,Command-line tools,2
+OSA,2012,87,10.875,Read alignment,No package manager,Command-line tools,2
+PASSion,2012,37,4.625,Read alignment,No package manager,Command-line tools,2
+RUM,2011,335,37.22222222,Read alignment,No package manager,Command-line tools,2
+SOAPSplice,2011,126,14,Read alignment,Package manager available,Command-line tools,2
+MapSplice,2010,903,90.3,Read alignment,Package manager available,Command-line tools,1
+SpliceMap,2010,365,36.5,Read alignment,Package manager available,Command-line tools,2
+Supersplat,2010,61,6.1,Read alignment,No package manager,Command-line tools,2
+HMMSplicer,2010,80,8,Read alignment,No package manager,Command-line tools,2
+QPALMA,2008,179,14.91666667,Read alignment,No package manager,Command-line tools,2
+SQANTI,2018,61,30.5,Gene annotations,Package manager available,Command-line tools,1
+Annocript,2015,74,14.8,Gene annotations,No package manager,Command-line tools,1
+CIRI,2015,373,74.6,Gene annotations,No package manager,Command-line tools,1
+TSSAR,2014,49,8.166666667,Gene annotations,Package manager available,Command-line tools,2
+FLAIR,2020,11,11,Transcriptome assembly,Package manager available,Command-line tools,1
+Scallop,2017,42,14,Transcriptome assembly,Package manager available,Command-line tools,1
+CLASS,2016,30,7.5,Transcriptome assembly,Package manager available,Command-line tools,1
+StringTie,2015,1665,333,Transcriptome assembly,No package manager,Command-line tools,2
+Bridger,2015,170,34,Transcriptome assembly,No package manager,Command-line tools,1
+Bayesembler,2014,44,7.333333333,Transcriptome assembly,No package manager,Command-line tools,1
+SEECER,2013,79,11.28571429,Transcriptome assembly,No package manager,Command-line tools,2
+BRANCH,2013,29,4.142857143,Transcriptome assembly,No package manager,Command-line tools,1
+EBARDenovo,2013,38,5.428571429,Transcriptome assembly,No package manager,Command-line tools,1
+Oases,2012,1302,162.75,Transcriptome assembly,No package manager,Command-line tools,1
+Cufflinks,2012,8219,1027.375,Transcriptome assembly,No package manager,Command-line tools,1
+IsoInfer,2011,61,6.777777778,Transcriptome assembly,No package manager,Command-line tools,2
+IsoLasso,2011,176,19.55555556,Transcriptome assembly,No package manager,Command-line tools,2
+Trinity,2011,9481,1053.444444,Transcriptome assembly,Package manager available,Command-line tools,1
+Trans-ABySS,2010,839,83.9,Transcriptome assembly,No package manager,Command-line tools,1
+Scripture,2010,1229,122.9,Transcriptome assembly,No package manager,Command-line tools,2
+TALON,2019,2,2,Transcriptome quantification,No package manager,Command-line tools,1
+Salmon,2017,1407,469,Transcriptome quantification,Package manager available,Command-line tools,1
+Kallisto,2016,2341,585.25,Transcriptome quantification,Package manager available,Command-line tools,1
+Wub,2016,0,0,Transcriptome quantification,Package manager available,Command-line tools,1
+Rcount,2015,21,4.2,Transcriptome quantification,No package manager,Web-based tools,1
+Ht-seq,2015,8461,1692.2,Transcriptome quantification,Package manager available,Command-line tools,2
+EMSAR,2015,14,2.8,Transcriptome quantification,No package manager,Command-line tools,1
+Maxcounts,2014,38,6.333333333,Transcriptome quantification,No package manager,Command-line tools,2
+FIXSEQ,2014,15,2.5,Transcriptome quantification,No package manager,Command-line tools,1
+Sailfish,2014,491,81.83333333,Transcriptome quantification,Package manager available,Command-line tools,1
+Casper,2014,26,4.333333333,Transcriptome quantification,Package manager available,Command-line tools,1
+MaLTA,2014,14,2.333333333,Transcriptome quantification,No package manager,Command-line tools,2
+Featurecounts,2014,4341,723.5,Transcriptome quantification,No package manager,Command-line tools,1
+MITIE,2013,56,8,Transcriptome quantification,No package manager,Command-line tools,1
+iReckon,2013,119,17,Transcriptome quantification,No package manager,Command-line tools,2
+eXpress,2013,660,94.28571429,Transcriptome quantification,Package manager available,Command-line tools,1
+BitSeq,2012,196,24.5,Transcriptome quantification,Package manager available,Command-line tools,1
+IQSeq,2012,8,1,Transcriptome quantification,No package manager,Command-line tools,2
+CEM,2012,77,9.625,Transcriptome quantification,No package manager,Command-line tools,2
+SAMMate,2011,63,7,Transcriptome quantification,No package manager,Command-line tools,1
+Isoformex,2011,29,3.222222222,Transcriptome quantification,No package manager,,2
+IsoEM,2011,183,20.33333333,Transcriptome quantification,No package manager,Command-line tools,2
+RSEM,2011,7152,794.6666667,Transcriptome quantification,Package manager available,Command-line tools,1
+EDASeq,2011,645,71.66666667,Transcriptome quantification,Package manager available,Command-line tools,1
+MMSEQ,2011,220,24.44444444,Transcriptome quantification,Package manager available,Command-line tools,1
+MISO,2010,1059,105.9,Transcriptome quantification,No package manager,Command-line tools,2
+SOLAS,2010,191,19.1,Transcriptome quantification,No package manager,Command-line tools,2
+Rseq,2009,494,44.90909091,Transcriptome quantification,No package manager,Command-line tools,2
+rQuant,2009,24,2.181818182,Transcriptome quantification,No package manager,Command-line tools,2
+ERANGE,2008,10932,911,Transcriptome quantification,No package manager,Command-line tools,2
+Swish,2019,6,6,Differential expression,Package manager available,Command-line tools,1
+Yanagi,2019,1,1,Differential expression,No package manager,Command-line tools,1
+Whippet,2018,28,14,Differential expression,No package manager,Command-line tools,1
+ReQTL,2018,0,0,Differential expression,No package manager,Command-line tools,1
+vast-tools,2017,83,27.66666667,Differential expression,No package manager,Command-line tools,1
+Limma/Voom,2015,7532,1506.4,Differential expression,Package manager available,Command-line tools,1
+Ballgown,2015,242,48.4,Differential expression,Package manager available,Command-line tools,1
+rMATS,2014,570,95,Differential expression,Package manager available,Command-line tools,1
+DESeq2,2014,15586,2597.666667,Differential expression,Package manager available,Command-line tools,1
+Corset,2014,206,34.33333333,Differential expression,Package manager available,Command-line tools,1
+BADGE,2014,11,1.833333333,Differential expression,No package manager,Command-line tools,2
+compcodeR,2014,25,4.166666667,Differential expression,Package manager available,Command-line tools,1
+metaRNASeq,2014,49,8.166666667,Differential expression,Package manager available,Command-line tools,1
+Characteristic Division,2014,92,15.33333333,Differential expression,No package manager,Command-line tools,2
+HTSFilter,2013,114,16.28571429,Differential expression,Package manager available,Command-line tools,1
+NPEBSeq,2013,35,5,Differential expression,No package manager,Command-line tools,2
+EBSeq,2013,821,117.2857143,Differential expression,Package manager available,Command-line tools,1
+sSeq,2013,79,11.28571429,Differential expression,Package manager available,Command-line tools,1
+Cuffdiff2,2013,2551,364.4285714,Differential expression,No package manager,Command-line tools,1
+SAMseq,2013,395,56.42857143,Differential expression,Package manager available,Command-line tools,1
+DSGseq,2013,55,7.857142857,Differential expression,No package manager,Command-line tools,2
+NOISeq,2011,1096,121.7777778,Differential expression,Package manager available,Command-line tools,1
+EdgeR,2010,14811,1481.1,Differential expression,Package manager available,Command-line tools,1
+DEGseq,2010,2170,217,Differential expression,Package manager available,Command-line tools,1
+LeafCutter,2018,119,59.5,RNA splicing,Package manager available,Command-line tools,1
+MAJIQ-SPEL,2018,2,1,RNA splicing,No package manager,Command-line tools,2
+MAJIQ,2016,125,31.25,RNA splicing,No package manager,Command-line tools,2
+SplAdder,2016,42,10.5,RNA splicing,No package manager,Command-line tools,1
+SplicePie,2015,16,3.2,RNA splicing,No package manager,Command-line tools,1
+SUPPA,2015,99,19.8,RNA splicing,Package manager available,Command-line tools,1
+SNPlice,2015,11,2.2,RNA splicing,No package manager,Command-line tools,1
+IUTA,2014,15,2.5,RNA splicing,No package manager,Command-line tools,1
+SigFuge,2014,17,2.833333333,RNA splicing,Package manager available,Command-line tools,1
+FineSplice,2014,24,4,RNA splicing,No package manager,Command-line tools,1
+PennSeq,2014,32,5.333333333,RNA splicing,No package manager,Command-line tools,1
+FlipFlop,2014,63,10.5,RNA splicing,Package manager available,Command-line tools,1
+GESS,2014,22,3.666666667,RNA splicing,No package manager,,2
+spliceR,2013,71,10.14285714,RNA splicing,Package manager available,Command-line tools,1
+RNASeq-MATS,2013,34,4.857142857,RNA splicing,No package manager,Command-line tools,1
+SplicingCompass,2013,57,8.142857143,RNA splicing,No package manager,Command-line tools,2
+DiffSplice,2013,129,18.42857143,RNA splicing,No package manager,Command-line tools,2
+DEXSeq,2012,924,115.5,RNA splicing,Package manager available,Command-line tools,1
+SpliceSeq,2012,101,12.625,RNA splicing,No package manager,Command-line tools,2
+JuncBASE,2011,225,25,RNA splicing,No package manager,Command-line tools,1
+ALEXA-seq,2010,309,30.9,RNA splicing,No package manager,Command-line tools,1
+TIMER2.0,2010,0,0,Cell deconvolution,No package manager,Web-based tools,1
+CIBERSORTx,2019,39,39,Cell deconvolution,No package manager,Web-based tools,2
+quanTIseq,2019,21,21,Cell deconvolution,No package manager,Web-based tools,2
+Immunedeconv,2019,20,20,Cell deconvolution,Package manager available,Command-line tools,1
+Linseed,2019,7,7,Cell deconvolution,No package manager,Command-line tools,1
+deconvSEQ,2019,3,3,Cell deconvolution,No package manager,Command-line tools,1
+CDSeq,2019,1,1,Cell deconvolution,No package manager,Command-line tools,1
+Dtangle,2019,2,2,Cell deconvolution,Package manager available,Command-line tools,1
+GEDIT,2019,0,0,Cell deconvolution,No package manager,Web-based tools,2
+SaVant,2017,16,5.333333333,Cell deconvolution,No package manager,Command-line tools,2
+EPIC,2017,73,24.33333333,Cell deconvolution,Package manager available,Command-line tools,2
+WSCUnmix,2017,3,1,Cell deconvolution,No package manager,Command-line tools,1
+Infino,2017,0,0,Cell deconvolution,No package manager,Command-line tools,1
+MCP-counter,2016,256,64,Cell deconvolution,No package manager,Web-based tools,1
+CellCode,2015,56,11.2,Cell deconvolution,No package manager,Command-line tools,2
+PERT,2012,94,11.75,Cell deconvolution,No package manager,Command-line tools,1
+ImReP,2018,5,2.5,Immune repertoire profiling,No package manager,Command-line tools,1
+TRUST (T cell),2016,152,38,Immune repertoire profiling,No package manager,Command-line tools,1
+V’DJer,2016,26,6.5,Immune repertoire profiling,Package manager available,Command-line tools,1
+IgBlast-based pipeline,2016,29,7.25,Immune repertoire profiling,No package manager,Command-line tools,1
+MiXCR,2015,442,88.4,Immune repertoire profiling,Package manager available,Command-line tools,1
+EAGLE,2017,51,17,Allele specific expression,No package manager,Command-line tools,1
+ANEVA/ANEVA-DOT,2019,4,4,Allele specific expression,No package manager,Command-line tools,1
+aFC,2017,32,10.66666667,Allele specific expression,No package manager,Command-line tools,1
+phASER,2016,31,7.75,Allele specific expression,No package manager,Command-line tools,1
+RASQUAL,2016,103,25.75,Allele specific expression,No package manager,Command-line tools,1
+allelecounter,2015,189,37.8,Allele specific expression,No package manager,Command-line tools,1
+WASP,2015,199,39.8,Allele specific expression,Package manager available,Command-line tools,1
+Mamba,2015,49,9.8,Allele specific expression,No package manager,Command-line tools,2
+MBASED,2014,92,15.33333333,Allele specific expression,Package manager available,Command-line tools,1
+Allim,2013,33,4.714285714,Allele specific expression,No package manager,Command-line tools,1
+AlleleSeq,2011,269,29.88888889,Allele specific expression,No package manager,Command-line tools,2
+ROP,2018,12,6,Viral detection,Package manager available,Command-line tools,1
+CoMPASS,2014,45,7.5,Viral detection,Package manager available,Command-line tools,1
+VirusSeq,2013,116,16.57142857,Viral detection,No package manager,Command-line tools,2
+VirusFinder,2013,107,15.28571429,Viral detection,No package manager,Command-line tools,2
+INTEGRATE-Vis,2017,3,1,Fusion detection,No package manager,Command-line tools,1
+INTEGRATE-Neo,2017,46,15.33333333,Fusion detection,No package manager,Command-line tools,1
+INTEGRATE,2016,66,16.5,Fusion detection,No package manager,Command-line tools,1
+TRUP,2015,44,8.8,Fusion detection,No package manager,Command-line tools,1
+PRADA,2014,126,21,Fusion detection,Package manager available,Command-line tools,1
+Pegasus,2014,46,7.666666667,Fusion detection,No package manager,Command-line tools,1
+FusionCatcher,2014,136,22.66666667,Fusion detection,Package manager available,Command-line tools,1
+FusionQ,2013,32,4.571428571,Fusion detection,No package manager,Command-line tools,2
+Barnacle,2013,13,1.857142857,Fusion detection,No package manager,Command-line tools,2
+Dissect,2012,25,3.125,Fusion detection,No package manager,Command-line tools,1
+BreakFusion,2012,59,7.375,Fusion detection,No package manager,Command-line tools,2
+EricScript,2012,90,11.25,Fusion detection,Package manager available,Command-line tools,1
+Bellerophontes,2012,38,4.75,Fusion detection,No package manager,Command-line tools,2
+GFML,2012,2,0.25,Fusion detection,No package manager,Web-based tools,1
+FusionHunter,2011,91,10.11111111,Fusion detection,No package manager,Command-line tools,1
+ChimeraScan,2011,240,26.66666667,Fusion detection,Package manager available,Command-line tools,1
+TopHat-fusion,2011,594,66,Fusion detection,No package manager,Command-line tools,2
+deFuse,2011,456,50.66666667,Fusion detection,Package manager available,Command-line tools,1
+CIRIquant,2020,5,5,Detecting circRNA,Package manager available,Command-line tools,1
+CIRI-vis,2020,1,1,Detecting circRNA,No package manager,Command-line tools,1
+Ularcirc,2019,1,1,Detecting circRNA,Package manager available,Command-line tools,1
+CLEAR,2019,1,1,Detecting circRNA,No package manager,Command-line tools,1
+CIRI-full,2019,24,24,Detecting circRNA,No package manager,Command-line tools,1
+circAST,2019,0,0,Detecting circRNA,No package manager,Command-line tools,1
+CIRI2,2018,116,58,Detecting circRNA,No package manager,Command-line tools,1
+Sailfish-cir,2017,22,7.333333333,Detecting circRNA,No package manager,Command-line tools,1
+CircComPara,2017,15,5,Detecting circRNA,No package manager,Command-line tools,1
+UROBORUS,2016,167,41.75,Detecting circRNA,No package manager,Command-line tools,1
+PTESFinder,2016,31,7.75,Detecting circRNA,No package manager,Command-line tools,1
+NCLscan,2016,63,15.75,Detecting circRNA,No package manager,Command-line tools,1
+DCC,2016,112,28,Detecting circRNA,No package manager,Command-line tools,1
+CIRI-AS,2016,112,28,Detecting circRNA,No package manager,Command-line tools,1
+circTest,2016,112,28,Detecting circRNA,No package manager,Command-line tools,1
+CIRCexplorer2,2016,274,68.5,Detecting circRNA,Package manager available,Command-line tools,1
+KNIFE,2015,297,59.4,Detecting circRNA,No package manager,Command-line tools,1
+circRNA_finder,2014,479,79.83333333,Detecting circRNA,No package manager,Command-line tools,1
+find_circ,2013,3315,473.5714286,Detecting circRNA,Package manager available,Command-line tools,1
+miRTrace,2018,9,4.5,Small RNA detection,Package manager available,Command-line tools,1
+sRNAbench,2015,140,28,Small RNA detection,No package manager,Web-based tools,2
+sRNAde,2015,140,28,Small RNA detection,No package manager,Web-based tools,2
+sRNAblast,2015,140,28,Small RNA detection,No package manager,Web-based tools,2
+miRNAconsTarget,2015,140,28,Small RNA detection,No package manager,Web-based tools,2
+sRNAjBrowser,2015,140,28,Small RNA detection,No package manager,Web-based tools,2
+sRNAjBrowserDE,2015,140,28,Small RNA detection,No package manager,Web-based tools,2
+ShortStack,2013,197,28.14285714,Small RNA detection,Package manager available,Command-line tools,1
+mirTools,2013,72,10.28571429,Small RNA detection,No package manager,Web-based tools,2
+UEA sRNA Workbench,2012,242,30.25,Small RNA detection,No package manager,Command-line tools,1
+miRDeep2,2011,1290,143.3333333,Small RNA detection,Package manager available,Command-line tools,1
+miRanalyzer,2011,254,28.22222222,Small RNA detection,No package manager,Web-based tools,2
+SeqBuster,2010,145,14.5,Small RNA detection,Package manager available,Web-based tools,2
+DARIO,2010,84,8.4,Small RNA detection,No package manager,Web-based tools,2
+BEAVR,2020,0,0,Visualization tools,Package manager available,Command-line tools,1
+coseq,2018,32,16,Visualization tools,Package manager available,Command-line tools,1
+ReadXplorer,2016,36,9,Visualization tools,No package manager,Command-line tools,2
+Integrated Genome Browser,2016,4,1,Visualization tools,No package manager,Command-line tools,2
+Sashimi plots,2015,87,17.4,Visualization tools,No package manager,Command-line tools,2
+ASTALAVISTA,2015,7,1.4,Visualization tools,Package manager available,Command-line tools,2
+RNASeqBrowser,2015,8,1.6,Visualization tools,No package manager,Command-line tools,2
+SplicePlot,2014,12,2,Visualization tools,No package manager,Command-line tools,2
+RNASeqViewer,2014,16,2.666666667,Visualization tools,No package manager,Command-line tools,1
+PrimerSeq,2014,9,1.5,Visualization tools,No package manager,Command-line tools,1
+Epiviz,2014,53,8.833333333,Visualization tools,Package manager available,Command-line tools,1
+RNAbrowse,2014,18,3,Visualization tools,No package manager,,2
+ZENBU,2014,120,20,Visualization tools,No package manager,Web-based tools,2
+CummeRbund,2012,8219,1027.375,Visualization tools,Package manager available,Command-line tools,1
+Splicing Viewer,2012,23,2.875,Visualization tools,No package manager,Command-line tools,2
