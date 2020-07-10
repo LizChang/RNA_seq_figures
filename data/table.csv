@@ -186,7 +186,7 @@ FusionHunter,2011,91,10.11111111,Fusion detection,none,+++,1
 ChimeraScan,2011,240,26.66666667,Fusion detection,Anaconda,++,1
 TopHat-fusion,2011,594,66,Fusion detection,none,+++,2
 deFuse,2011,456,50.66666667,Fusion detection,Anaconda,++,1
-CIRIquant,2020,5,5,Detecting circRNA,PyPI,++,1
+CIRIquant,2020,5,5,Detecting circRNA,none,++,1
 CIRI-vis,2020,1,1,Detecting circRNA,none,+++,1
 Ularcirc,2019,1,1,Detecting circRNA,Bioconductor,++,1
 CLEAR,2019,1,1,Detecting circRNA,none,+++,1
@@ -204,7 +204,7 @@ circTest,2016,112,28,Detecting circRNA,none,+++,1
 CIRCexplorer2,2016,274,68.5,Detecting circRNA,Anaconda,++,1
 KNIFE,2015,297,59.4,Detecting circRNA,none,+++,1
 circRNA_finder,2014,479,79.83333333,Detecting circRNA,none,+++,1
-find_circ,2013,3315,473.5714286,Detecting circRNA,PyPI,++,1
+find_circ,2013,3315,473.5714286,Detecting circRNA,none,++,1
 miRTrace,2018,9,4.5,Small RNA detection,Anaconda,+++,1
 sRNAbench,2015,140,28,Small RNA detection,none,+,2
 sRNAde,2015,140,28,Small RNA detection,none,+,2
@@ -219,7 +219,7 @@ miRDeep2,2011,1290,143.3333333,Small RNA detection,Anaconda,+++,1
 miRanalyzer,2011,254,28.22222222,Small RNA detection,none,+,2
 SeqBuster,2010,145,14.5,Small RNA detection,Anaconda,+,2
 DARIO,2010,84,8.4,Small RNA detection,none,+,2
-BEAVR,2020,0,0,Visualization tools,Docker Hub,++,1
+BEAVR,2020,0,0,Visualization tools,none,++,1
 coseq,2018,32,16,Visualization tools,"Anaconda, Bioconductor",++,1
 ReadXplorer,2016,36,9,Visualization tools,none,+++,2
 Integrated Genome Browser,2016,4,1,Visualization tools,none,+++,2

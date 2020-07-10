@@ -77,7 +77,7 @@ BitSeq,2012,196,24.5,Transcriptome quantification,Package manager available,Comm
 IQSeq,2012,8,1,Transcriptome quantification,No package manager,Command-line tools,2
 CEM,2012,77,9.625,Transcriptome quantification,No package manager,Command-line tools,2
 SAMMate,2011,63,7,Transcriptome quantification,No package manager,Command-line tools,1
-Isoformex,2011,29,3.222222222,Transcriptome quantification,No package manager,,2
+Isoformex,2011,29,3.222222222,Transcriptome quantification,No package manager,none,2
 IsoEM,2011,183,20.33333333,Transcriptome quantification,No package manager,Command-line tools,2
 RSEM,2011,7152,794.6666667,Transcriptome quantification,Package manager available,Command-line tools,1
 EDASeq,2011,645,71.66666667,Transcriptome quantification,Package manager available,Command-line tools,1
@@ -123,7 +123,7 @@ SigFuge,2014,17,2.833333333,RNA splicing,Package manager available,Command-line 
 FineSplice,2014,24,4,RNA splicing,No package manager,Command-line tools,1
 PennSeq,2014,32,5.333333333,RNA splicing,No package manager,Command-line tools,1
 FlipFlop,2014,63,10.5,RNA splicing,Package manager available,Command-line tools,1
-GESS,2014,22,3.666666667,RNA splicing,No package manager,,2
+GESS,2014,22,3.666666667,RNA splicing,No package manager,none,2
 spliceR,2013,71,10.14285714,RNA splicing,Package manager available,Command-line tools,1
 RNASeq-MATS,2013,34,4.857142857,RNA splicing,No package manager,Command-line tools,1
 SplicingCompass,2013,57,8.142857143,RNA splicing,No package manager,Command-line tools,2
@@ -204,7 +204,7 @@ circTest,2016,112,28,Detecting circRNA,No package manager,Command-line tools,1
 CIRCexplorer2,2016,274,68.5,Detecting circRNA,Package manager available,Command-line tools,1
 KNIFE,2015,297,59.4,Detecting circRNA,No package manager,Command-line tools,1
 circRNA_finder,2014,479,79.83333333,Detecting circRNA,No package manager,Command-line tools,1
-find_circ,2013,3315,473.5714286,Detecting circRNA,Package manager available,Command-line tools,1
+find_circ,2013,3315,473.5714286,Detecting circRNA,No package manager,Command-line tools,1
 miRTrace,2018,9,4.5,Small RNA detection,Package manager available,Command-line tools,1
 sRNAbench,2015,140,28,Small RNA detection,No package manager,Web-based tools,2
 sRNAde,2015,140,28,Small RNA detection,No package manager,Web-based tools,2
@@ -219,7 +219,7 @@ miRDeep2,2011,1290,143.3333333,Small RNA detection,Package manager available,Com
 miRanalyzer,2011,254,28.22222222,Small RNA detection,No package manager,Web-based tools,2
 SeqBuster,2010,145,14.5,Small RNA detection,Package manager available,Web-based tools,2
 DARIO,2010,84,8.4,Small RNA detection,No package manager,Web-based tools,2
-BEAVR,2020,0,0,Visualization tools,Package manager available,Command-line tools,1
+BEAVR,2020,0,0,Visualization tools,No package manager,Command-line tools,1
 coseq,2018,32,16,Visualization tools,Package manager available,Command-line tools,1
 ReadXplorer,2016,36,9,Visualization tools,No package manager,Command-line tools,2
 Integrated Genome Browser,2016,4,1,Visualization tools,No package manager,Command-line tools,2
@@ -230,7 +230,7 @@ SplicePlot,2014,12,2,Visualization tools,No package manager,Command-line tools,2
 RNASeqViewer,2014,16,2.666666667,Visualization tools,No package manager,Command-line tools,1
 PrimerSeq,2014,9,1.5,Visualization tools,No package manager,Command-line tools,1
 Epiviz,2014,53,8.833333333,Visualization tools,Package manager available,Command-line tools,1
-RNAbrowse,2014,18,3,Visualization tools,No package manager,,2
+RNAbrowse,2014,18,3,Visualization tools,No package manager,none,2
 ZENBU,2014,120,20,Visualization tools,No package manager,Web-based tools,2
 CummeRbund,2012,8219,1027.375,Visualization tools,Package manager available,Command-line tools,1
 Splicing Viewer,2012,23,2.875,Visualization tools,No package manager,Command-line tools,2
